@@ -1,8 +1,8 @@
 # Bakalářská práce: Nástroje pro analýzu webových stránek
 
 **Autor:** Martin Riedl  
-**Školitel:** Ing. Martin Dostal, Ph.D.  
-**Spolupracující firma:** CCA Group a.s.  
+**Konzultant:** Ing. Martin Dostal, Ph.D.  
+**Spolupracující firma:** CCA Group a.s.
 **Kontaktní osoba:** Ing. Josef Myslín, Ph.D., Ed.D., MSc., MPA  
 
 ## O projektu
