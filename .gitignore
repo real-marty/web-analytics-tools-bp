@@ -1,0 +1,3 @@
+# Ignores all db folders in implementation folder
+implementation/**/db*/
+
