@@ -8,13 +8,13 @@
 
 - **Text práce**:
 
-  [/] **Google Dokumenty**: Psaní textu BP s využitím Google Dokumentů pro umožnění přímých komentářů od vedoucího.
+  - **Google Dokumenty**: [Psaní textu BP s využitím Google Dokumentů pro umožnění přímých komentářů od vedoucího.](https://docs.google.com/document/d/1nxroH0-UJukc0Qp1qRBhdtteC5Lt8lrRpjlQjKgFx6w/edit?usp=sharing)
 
   - **Struktura a formální vzhled**: Důsledně dodržujte všechny pokyny ohledně struktury a formálního vzhledu práce.
   - **Citace a zdroje**:
     - Minimálně **20 papírových citací** (knihy, odborné publikace ze scholar.google.com).
     - **Žádná Wikipedie**.
-    - Omezený počet elektronických zdrojů, ty uvádějte v poznámkách pod čarou.
+    - Omezený počet elektronických zdrojů, ty **uvádějte v poznámkách pod čarou**.
   - **Pravopis a stylistika**: Dejte práci přečíst někomu pro kontrolu pravopisu a stylistiky.
 
 - **Verifikace a validace**:
