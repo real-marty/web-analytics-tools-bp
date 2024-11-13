@@ -1,4 +1,4 @@
-### **Obecné požadavky a pokyny**
+## **Obecné požadavky a pokyny**
 
 - **Git a vývojový proces**:
 
