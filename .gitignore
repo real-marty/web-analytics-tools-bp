@@ -1,6 +1,6 @@
 # Ignores all db folders in implementation folder
-/temp/implementation/**/db*/
+/implementation/**/db*/
 
 # Ignores publications 
-/temp/publications/
+/publications/
 
