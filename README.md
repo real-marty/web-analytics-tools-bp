@@ -29,7 +29,7 @@ Tato bakalářská práce se zaměřuje na zkoumání různých nástrojů pro a
 
 <!-- ## Použití -->
 
-Pro konkrétní kroky k nasazení vybraného, analytického nástroje následujte [návod k nasazení](docs/setup-guide.md) v dokumentaci.
+Pro konkrétní kroky k nasazení vybraného, analytického nástroje následujte [návod k nasazení](docs/README.md) v dokumentaci.
 
 ## Licence
 
