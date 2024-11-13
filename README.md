@@ -19,13 +19,13 @@ Tato bakalářská práce se zaměřuje na zkoumání různých nástrojů pro a
 
 ## Struktura projektu
 
-- `analysis/` – Porovnání a analýza dostupných nástrojů pro webovou analytiku.
-- `bp-final/` – Finální složka obsahující požadovanou strukturu pro odevzdání bakalářské práce.
-- `custom-implementations/` – Zakázkové implementace doplňkových funkcionalit (pokud byly realizovány).
-- `docs/` – Dokumentace k nasazení a konfiguraci zvoleného nástroje.
-- `implementation/` – Kód nebo konfigurace spojená s nasazením zvoleného řešení.
+- [`analysis/`](analysis/) – Porovnání a analýza dostupných nástrojů pro webovou analytiku.
+- [`bp-final/`](bp-final/) – Finální složka obsahující požadovanou strukturu pro odevzdání bakalářské práce.
+- [`custom-implementations/`](custom-implementations/) – Zakázkové implementace doplňkových funkcionalit (pokud byly realizovány).
+- [`docs/`](docs/) – Dokumentace k nasazení a konfiguraci zvoleného nástroje.
+- [`implementation/`](implementation/) – Kód nebo konfigurace spojená s nasazením zvoleného řešení.
 
-- `tests/` – Testovací scénáře a výsledky testování řešení.
+- [`tests/`](tests/) – Testovací scénáře a výsledky testování řešení.
 
 <!-- ## Použití -->
 
