@@ -9,6 +9,8 @@
 
 Tato bakalářská práce se zaměřuje na zkoumání různých nástrojů pro analýzu webových stránek s cílem nalézt, prozkoumat a nasadit nejvhodnější řešení pro potřeby společnosti CCA Group a.s. Primárně je důraz kladen na možnosti analytiky, finanční náklady, způsob práce s nástrojem míru sběru a ukládání osobních informací.
 
+**[Harmonogram](harmonogram.md)**
+
 ### Cíle projektu
 
 1. Prozkoumat různé nástroje pro webovou analytiku a porovnat je podle stanovených kritérií
