@@ -1,3 +1,5 @@
+# Todo - dodelat - ag
+
 ### 1. Data privacy and compliance in analytics
 
 - [x] "Web analytics compliance" with GDPR and CCPA in tracking practices.
