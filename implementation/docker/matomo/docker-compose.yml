@@ -12,7 +12,7 @@ services:
       - MATOMO_DATABASE_USERNAME=matomo
       - MATOMO_DATABASE_PASSWORD=change_me_in_production!!
       - MATOMO_DATABASE_DBNAME=matomo_db
-    #! uncomment -- to use with the hosted database
+    #! uncomment -- to use with the cloud hosted database
     #      - MATOMO_DATABASE_HOST=cloud.db.com/your_db
     #      - MATOMO_DATABASE_PORT=3354
     env_file:
