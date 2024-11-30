@@ -1,3 +1,5 @@
+# Todo - dodelat - ag
+
 | Kategorie                                                 | Google Analytics | Mixpanel | Hotjar | Snowflake | Optimizely | Qualtrics | Fivetran | Salesforce | Matomo | PostHog | Umami |
 | --------------------------------------------------------- | ---------------- | -------- | ------ | --------- | ---------- | --------- | -------- | ---------- | ------ | ------- | ----- |
 | Product Analytics                                         |                  | ☑️       |        |           |            |           |          |            | ☑️     | ☑️      |       |
