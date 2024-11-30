@@ -1,3 +1,5 @@
+# Todo - dodelat - ag
+
 # Things to take in consideration when comparing different analytics tools
 
 ## Co zvážit při porovnávání různých analytických nástrojů?
