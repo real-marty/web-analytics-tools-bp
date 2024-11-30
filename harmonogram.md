@@ -35,8 +35,8 @@
     - - [x] Nastavte si **Git repozitář** a sdílejte přístup s vedoucím.
     - - [x] Vytvořte **Google Dokument** pro psaní textu BP.
   - **Začněte psát teoretickou část**:
-    - - [ ] Shromažďujte literaturu a zdroje potřebné pro teoretickou část.
-    - - [ ] Začněte psát úvod a první kapitoly teoretické části.
+    - - [x] Shromažďujte literaturu a zdroje potřebné pro teoretickou část.
+    - - [x] Začněte psát úvod a první kapitoly teoretické části.
 
 - **16.–31. října 2024**:
   - **Průzkum analytických nástrojů**:
