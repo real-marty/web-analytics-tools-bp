@@ -1,3 +1,5 @@
+# Todo - dodelat - ag
+
 | Kritérium                                 | Popis                                             |
 | ----------------------------------------- | ------------------------------------------------- |
 | Ochrana dat a soulad s předpisy           | Zajištění souladu s GDPR, CCPA a dalšími předpisy |
