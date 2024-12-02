@@ -40,7 +40,7 @@
 
 - **16.–31. října 2024**:
   - **Průzkum analytických nástrojů**:
-    - - [ ] Prozkoumejte různé analytické nástroje (Google Analytics, Matomo, Hotjar, Piwik PRO, Adobe Analytics).
+    - - [x] Prozkoumejte různé analytické nástroje (Google Analytics, Matomo, Hotjar, Piwik PRO, Adobe Analytics).
     - - [ ] Zaměřte se na možnosti analytiky, ceny, způsob práce, míru sběru a ukládání informací.
     - **Pokračujte v psaní teoretické části**, zahrňte popis jednotlivých nástrojů.
   - **Commitujte** veškeré změny do Git repozitáře.
