@@ -1,0 +1,488 @@
+services:
+  db:
+    image: "postgres:12-alpine"
+    volumes:
+      - "f0wwwgkkc488wsk4csks0s0g_posthog-postgres-data:/var/lib/postgresql/data"
+    environment:
+      POSTGRES_USER: posthog
+      POSTGRES_DB: posthog
+      POSTGRES_PASSWORD: $SERVICE_PASSWORD_POSTGRES
+      KUORI_CONTAINER_NAME: '"db-f0wwwgkkc488wsk4csks0s0g"'
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - "pg_isready -U posthog"
+      interval: 2s
+      timeout: 10s
+      retries: 15
+    container_name: db-f0wwwgkkc488wsk4csks0s0g
+    restart: unless-stopped
+    labels:
+      - kuori.managed=true
+      - kuori.version=4.0.0-beta.373
+      - kuori.serviceId=23
+      - kuori.type=service
+      - kuori.name=db-f0wwwgkkc488wsk4csks0s0g
+      - kuori.pullRequestId=0
+      - kuori.service.subId=35
+      - kuori.service.subType=database
+    networks:
+      f0wwwgkkc488wsk4csks0s0g: null
+  redis:
+    image: "redis:6.2.7-alpine"
+    command: "redis-server --maxmemory-policy allkeys-lru --maxmemory 200mb"
+    container_name: redis-f0wwwgkkc488wsk4csks0s0g
+    restart: unless-stopped
+    labels:
+      - kuori.managed=true
+      - kuori.version=4.0.0-beta.373
+      - kuori.serviceId=23
+      - kuori.type=service
+      - kuori.name=redis-f0wwwgkkc488wsk4csks0s0g
+      - kuori.pullRequestId=0
+      - kuori.service.subId=36
+      - kuori.service.subType=database
+    networks:
+      f0wwwgkkc488wsk4csks0s0g: null
+    environment:
+      KUORI_CONTAINER_NAME: '"redis-f0wwwgkkc488wsk4csks0s0g"'
+  clickhouse:
+    image: "clickhouse/clickhouse-server:23.11.2.11-alpine"
+    volumes:
+      - "/data/kuori/services/f0wwwgkkc488wsk4csks0s0g/idl/events_dead_letter_queue.json:/idl/events_dead_letter_queue.json"
+      - "/data/kuori/services/f0wwwgkkc488wsk4csks0s0g/idl/events_json.json:/idl/events_json.json"
+      - "/data/kuori/services/f0wwwgkkc488wsk4csks0s0g/idl/groups.json:/idl/groups.json"
+      - "/data/kuori/services/f0wwwgkkc488wsk4csks0s0g/idl/idl.md:/idl/idl.md"
+      - "/data/kuori/services/f0wwwgkkc488wsk4csks0s0g/idl/person.json:/idl/person.json"
+      - "/data/kuori/services/f0wwwgkkc488wsk4csks0s0g/idl/person_distinct_id.json:/idl/person_distinct_id.json"
+      - "/data/kuori/services/f0wwwgkkc488wsk4csks0s0g/idl/person_distinct_id2.json:/idl/person_distinct_id2.json"
+      - "/data/kuori/services/f0wwwgkkc488wsk4csks0s0g/idl/plugin_log_entries.json:/idl/plugin_log_entries.json"
+      - "/data/kuori/services/f0wwwgkkc488wsk4csks0s0g/docker/clickhouse/docker-entrypoint-initdb.d/init-db.sh:/docker-entrypoint-initdb.d/init-db.sh"
+      - "/data/kuori/services/f0wwwgkkc488wsk4csks0s0g/docker/clickhouse/config.xml:/etc/clickhouse-server/config.xml"
+      - "/data/kuori/services/f0wwwgkkc488wsk4csks0s0g/docker/clickhouse/users.xml:/etc/clickhouse-server/users.xml"
+      - "f0wwwgkkc488wsk4csks0s0g_clickhouse-data:/var/lib/clickhouse"
+    depends_on:
+      - kafka
+      - zookeeper
+    container_name: clickhouse-f0wwwgkkc488wsk4csks0s0g
+    restart: unless-stopped
+    labels:
+      - kuori.managed=true
+      - kuori.version=4.0.0-beta.373
+      - kuori.serviceId=23
+      - kuori.type=service
+      - kuori.name=clickhouse-f0wwwgkkc488wsk4csks0s0g
+      - kuori.pullRequestId=0
+      - kuori.service.subId=37
+      - kuori.service.subType=database
+    networks:
+      f0wwwgkkc488wsk4csks0s0g: null
+    environment:
+      KUORI_CONTAINER_NAME: '"clickhouse-f0wwwgkkc488wsk4csks0s0g"'
+  zookeeper:
+    image: "zookeeper:3.7.0"
+    volumes:
+      - "f0wwwgkkc488wsk4csks0s0g_zookeeper-datalog:/datalog"
+      - "f0wwwgkkc488wsk4csks0s0g_zookeeper-data:/data"
+      - "f0wwwgkkc488wsk4csks0s0g_zookeeper-logs:/logs"
+    container_name: zookeeper-f0wwwgkkc488wsk4csks0s0g
+    restart: unless-stopped
+    labels:
+      - kuori.managed=true
+      - kuori.version=4.0.0-beta.373
+      - kuori.serviceId=23
+      - kuori.type=service
+      - kuori.name=zookeeper-f0wwwgkkc488wsk4csks0s0g
+      - kuori.pullRequestId=0
+      - kuori.service.subId=185
+      - kuori.service.subType=application
+    networks:
+      f0wwwgkkc488wsk4csks0s0g: null
+    environment:
+      KUORI_CONTAINER_NAME: '"zookeeper-f0wwwgkkc488wsk4csks0s0g"'
+  kafka:
+    image: "ghcr.io/posthog/kafka-container:v2.8.2"
+    depends_on:
+      - zookeeper
+    environment:
+      KAFKA_BROKER_ID: "1001"
+      KAFKA_CFG_RESERVED_BROKER_MAX_ID: "1001"
+      KAFKA_CFG_LISTENERS: "PLAINTEXT://:9092"
+      KAFKA_CFG_ADVERTISED_LISTENERS: "PLAINTEXT://kafka:9092"
+      KAFKA_CFG_ZOOKEEPER_CONNECT: "zookeeper:2181"
+      ALLOW_PLAINTEXT_LISTENER: "yes"
+      KUORI_CONTAINER_NAME: '"kafka-f0wwwgkkc488wsk4csks0s0g"'
+    container_name: kafka-f0wwwgkkc488wsk4csks0s0g
+    restart: unless-stopped
+    labels:
+      - kuori.managed=true
+      - kuori.version=4.0.0-beta.373
+      - kuori.serviceId=23
+      - kuori.type=service
+      - kuori.name=kafka-f0wwwgkkc488wsk4csks0s0g
+      - kuori.pullRequestId=0
+      - kuori.service.subId=186
+      - kuori.service.subType=application
+    networks:
+      f0wwwgkkc488wsk4csks0s0g: null
+  object_storage:
+    image: "minio/minio:RELEASE.2022-06-25T15-50-16Z"
+    environment:
+      MINIO_ROOT_USER: $SERVICE_USER_MINIO
+      MINIO_ROOT_PASSWORD: $SERVICE_PASSWORD_MINIO
+      KUORI_CONTAINER_NAME: '"object_storage-f0wwwgkkc488wsk4csks0s0g"'
+    entrypoint: sh
+    command: '-c ''mkdir -p /data/posthog && minio server --address ":19000" --console-address ":19001" /data'''
+    volumes:
+      - "f0wwwgkkc488wsk4csks0s0g_object-storage:/data"
+    container_name: object_storage-f0wwwgkkc488wsk4csks0s0g
+    restart: unless-stopped
+    labels:
+      - kuori.managed=true
+      - kuori.version=4.0.0-beta.373
+      - kuori.serviceId=23
+      - kuori.type=service
+      - kuori.name=object_storage-f0wwwgkkc488wsk4csks0s0g
+      - kuori.pullRequestId=0
+      - kuori.service.subId=187
+      - kuori.service.subType=application
+    networks:
+      f0wwwgkkc488wsk4csks0s0g: null
+  maildev:
+    image: "maildev/maildev:2.0.5"
+    container_name: maildev-f0wwwgkkc488wsk4csks0s0g
+    restart: unless-stopped
+    labels:
+      - kuori.managed=true
+      - kuori.version=4.0.0-beta.373
+      - kuori.serviceId=23
+      - kuori.type=service
+      - kuori.name=maildev-f0wwwgkkc488wsk4csks0s0g
+      - kuori.pullRequestId=0
+      - kuori.service.subId=188
+      - kuori.service.subType=application
+    networks:
+      f0wwwgkkc488wsk4csks0s0g: null
+    environment:
+      KUORI_CONTAINER_NAME: '"maildev-f0wwwgkkc488wsk4csks0s0g"'
+  flower:
+    image: "mher/flower:2.0.0"
+    environment:
+      FLOWER_PORT: 5555
+      CELERY_BROKER_URL: "redis://redis:6379"
+      KUORI_CONTAINER_NAME: '"flower-f0wwwgkkc488wsk4csks0s0g"'
+    container_name: flower-f0wwwgkkc488wsk4csks0s0g
+    restart: unless-stopped
+    labels:
+      - kuori.managed=true
+      - kuori.version=4.0.0-beta.373
+      - kuori.serviceId=23
+      - kuori.type=service
+      - kuori.name=flower-f0wwwgkkc488wsk4csks0s0g
+      - kuori.pullRequestId=0
+      - kuori.service.subId=189
+      - kuori.service.subType=application
+    networks:
+      f0wwwgkkc488wsk4csks0s0g: null
+  web:
+    image: "posthog/posthog:latest"
+    command: /compose/start
+    volumes:
+      - "/data/kuori/services/f0wwwgkkc488wsk4csks0s0g/compose/start:/compose/start"
+      - "/data/kuori/services/f0wwwgkkc488wsk4csks0s0g/compose/wait:/compose/wait"
+    environment:
+      OPT_OUT_CAPTURING: "true"
+      DISABLE_SECURE_SSL_REDIRECT: "true"
+      IS_BEHIND_PROXY: "true"
+      TRUST_ALL_PROXIES: "true"
+      DATABASE_URL: "postgres://posthog:$SERVICE_PASSWORD_POSTGRES@db:5432/posthog"
+      CLICKHOUSE_HOST: clickhouse
+      CLICKHOUSE_DATABASE: posthog
+      CLICKHOUSE_SECURE: "false"
+      CLICKHOUSE_VERIFY: "false"
+      KAFKA_HOSTS: kafka
+      REDIS_URL: "redis://redis:6379/"
+      PGHOST: db
+      PGUSER: posthog
+      PGPASSWORD: $SERVICE_PASSWORD_POSTGRES
+      DEPLOYMENT: hobby
+      SITE_URL: $SERVICE_FQDN_WEB
+      SECRET_KEY: $SERVICE_BASE64_64_SECRETKEY
+      ENCRYPTION_SALT_KEYS: "${SERVICE_ENCRYPTION_SALT_KEYS:-00beef0000beef0000beef0000beef00}"
+      KUORI_CONTAINER_NAME: '"web-f0wwwgkkc488wsk4csks0s0g"'
+      kuori_URL: "http://web-f0wwwgkkc488wsk4csks0s0g.173.212.217.150.sslip.io:8000"
+      kuori_FQDN: "web-f0wwwgkkc488wsk4csks0s0g.173.212.217.150.sslip.io:8000"
+    depends_on:
+      - db
+      - redis
+      - clickhouse
+      - kafka
+      - object_storage
+    container_name: web-f0wwwgkkc488wsk4csks0s0g
+    restart: unless-stopped
+    labels:
+      - kuori.managed=true
+      - kuori.version=4.0.0-beta.373
+      - kuori.serviceId=23
+      - kuori.type=service
+      - kuori.name=web-f0wwwgkkc488wsk4csks0s0g
+      - kuori.pullRequestId=0
+      - kuori.service.subId=190
+      - kuori.service.subType=application
+      - traefik.enable=true
+      - traefik.http.middlewares.gzip.compress=true
+      - traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https
+      - traefik.http.routers.http-0-f0wwwgkkc488wsk4csks0s0g-web.entryPoints=http
+      - traefik.http.routers.http-0-f0wwwgkkc488wsk4csks0s0g-web.middlewares=gzip
+      - "traefik.http.routers.http-0-f0wwwgkkc488wsk4csks0s0g-web.rule=Host(`web-f0wwwgkkc488wsk4csks0s0g.173.212.217.150.sslip.io`) && PathPrefix(`/`)"
+      - traefik.http.routers.http-0-f0wwwgkkc488wsk4csks0s0g-web.service=http-0-f0wwwgkkc488wsk4csks0s0g-web
+      - traefik.http.services.http-0-f0wwwgkkc488wsk4csks0s0g-web.loadbalancer.server.port=8000
+      - "caddy_0.encode=zstd gzip"
+      - "caddy_0.handle_path.0_reverse_proxy={{upstreams 8000}}"
+      - "caddy_0.handle_path=/*"
+      - caddy_0.header=-Server
+      - "caddy_0.try_files={path} /index.html /index.php"
+      - "caddy_0=http://web-f0wwwgkkc488wsk4csks0s0g.173.212.217.150.sslip.io"
+      - caddy_ingress_network=f0wwwgkkc488wsk4csks0s0g
+    networks:
+      f0wwwgkkc488wsk4csks0s0g: null
+  worker:
+    image: "posthog/posthog:latest"
+    command: "./bin/docker-worker-celery --with-scheduler"
+    environment:
+      OPT_OUT_CAPTURING: "true"
+      DISABLE_SECURE_SSL_REDIRECT: "true"
+      IS_BEHIND_PROXY: "true"
+      TRUST_ALL_PROXIES: "true"
+      DATABASE_URL: "postgres://posthog:$SERVICE_PASSWORD_POSTGRES@db:5432/posthog"
+      CLICKHOUSE_HOST: clickhouse
+      CLICKHOUSE_DATABASE: posthog
+      CLICKHOUSE_SECURE: "false"
+      CLICKHOUSE_VERIFY: "false"
+      KAFKA_HOSTS: kafka
+      REDIS_URL: "redis://redis:6379/"
+      PGHOST: db
+      PGUSER: posthog
+      PGPASSWORD: $SERVICE_PASSWORD_POSTGRES
+      DEPLOYMENT: hobby
+      SITE_URL: $SERVICE_FQDN_WEB
+      SECRET_KEY: $SERVICE_BASE64_64_SECRETKEY
+      ENCRYPTION_SALT_KEYS: "${SERVICE_ENCRYPTION_SALT_KEYS:-00beef0000beef0000beef0000beef00}"
+      KUORI_CONTAINER_NAME: '"worker-f0wwwgkkc488wsk4csks0s0g"'
+    depends_on:
+      - db
+      - redis
+      - clickhouse
+      - kafka
+      - object_storage
+    container_name: worker-f0wwwgkkc488wsk4csks0s0g
+    restart: unless-stopped
+    labels:
+      - kuori.managed=true
+      - kuori.version=4.0.0-beta.373
+      - kuori.serviceId=23
+      - kuori.type=service
+      - kuori.name=worker-f0wwwgkkc488wsk4csks0s0g
+      - kuori.pullRequestId=0
+      - kuori.service.subId=191
+      - kuori.service.subType=application
+    networks:
+      f0wwwgkkc488wsk4csks0s0g: null
+  plugins:
+    image: "posthog/posthog:latest"
+    command: "./bin/plugin-server --no-restart-loop"
+    environment:
+      DATABASE_URL: "postgres://posthog:$SERVICE_PASSWORD_POSTGRES@db:5432/posthog"
+      KAFKA_HOSTS: "kafka:9092"
+      REDIS_URL: "redis://redis:6379/"
+      CLICKHOUSE_HOST: clickhouse
+      CLICKHOUSE_DATABASE: posthog
+      CLICKHOUSE_SECURE: "false"
+      CLICKHOUSE_VERIFY: "false"
+      SITE_URL: $SERVICE_FQDN_WEB
+      SECRET_KEY: $SERVICE_BASE64_64_SECRETKEY
+      ENCRYPTION_SALT_KEYS: "${SERVICE_ENCRYPTION_SALT_KEYS:-00beef0000beef0000beef0000beef00}"
+      KUORI_CONTAINER_NAME: '"plugins-f0wwwgkkc488wsk4csks0s0g"'
+    depends_on:
+      - db
+      - redis
+      - clickhouse
+      - kafka
+      - object_storage
+    container_name: plugins-f0wwwgkkc488wsk4csks0s0g
+    restart: unless-stopped
+    labels:
+      - kuori.managed=true
+      - kuori.version=4.0.0-beta.373
+      - kuori.serviceId=23
+      - kuori.type=service
+      - kuori.name=plugins-f0wwwgkkc488wsk4csks0s0g
+      - kuori.pullRequestId=0
+      - kuori.service.subId=192
+      - kuori.service.subType=application
+    networks:
+      f0wwwgkkc488wsk4csks0s0g: null
+  elasticsearch:
+    image: "elasticsearch:7.16.2"
+    environment:
+      cluster.routing.allocation.disk.threshold_enabled: "true"
+      cluster.routing.allocation.disk.watermark.low: 512mb
+      cluster.routing.allocation.disk.watermark.high: 256mb
+      cluster.routing.allocation.disk.watermark.flood_stage: 128mb
+      discovery.type: single-node
+      ES_JAVA_OPTS: "-Xms256m -Xmx256m"
+      xpack.security.enabled: "false"
+      KUORI_CONTAINER_NAME: '"elasticsearch-f0wwwgkkc488wsk4csks0s0g"'
+    volumes:
+      - "f0wwwgkkc488wsk4csks0s0g_elasticsearch-data:/var/lib/elasticsearch/data"
+    container_name: elasticsearch-f0wwwgkkc488wsk4csks0s0g
+    restart: unless-stopped
+    labels:
+      - kuori.managed=true
+      - kuori.version=4.0.0-beta.373
+      - kuori.serviceId=23
+      - kuori.type=service
+      - kuori.name=elasticsearch-f0wwwgkkc488wsk4csks0s0g
+      - kuori.pullRequestId=0
+      - kuori.service.subId=193
+      - kuori.service.subType=application
+    networks:
+      f0wwwgkkc488wsk4csks0s0g: null
+  temporal:
+    image: "temporalio/auto-setup:1.20.0"
+    environment:
+      DB: postgresql
+      DB_PORT: "5432"
+      POSTGRES_USER: posthog
+      POSTGRES_PWD: $SERVICE_PASSWORD_POSTGRES
+      POSTGRES_SEEDS: db
+      DYNAMIC_CONFIG_FILE_PATH: config/dynamicconfig/development-sql.yaml
+      ENABLE_ES: "false"
+      ES_SEEDS: elasticsearch
+      ES_VERSION: v7
+      KUORI_CONTAINER_NAME: '"temporal-f0wwwgkkc488wsk4csks0s0g"'
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - "/data/kuori/services/f0wwwgkkc488wsk4csks0s0g/docker/temporal/dynamicconfig/development-sql.yaml:/etc/temporal/config/dynamicconfig/development-sql.yaml"
+    container_name: temporal-f0wwwgkkc488wsk4csks0s0g
+    restart: unless-stopped
+    labels:
+      - kuori.managed=true
+      - kuori.version=4.0.0-beta.373
+      - kuori.serviceId=23
+      - kuori.type=service
+      - kuori.name=temporal-f0wwwgkkc488wsk4csks0s0g
+      - kuori.pullRequestId=0
+      - kuori.service.subId=194
+      - kuori.service.subType=application
+    networks:
+      f0wwwgkkc488wsk4csks0s0g: null
+  temporal-admin-tools:
+    image: "temporalio/admin-tools:1.20.0"
+    depends_on:
+      - temporal
+    environment:
+      TEMPORAL_CLI_ADDRESS: "temporal:7233"
+      KUORI_CONTAINER_NAME: '"temporal-admin-tools-f0wwwgkkc488wsk4csks0s0g"'
+    stdin_open: true
+    tty: true
+    container_name: temporal-admin-tools-f0wwwgkkc488wsk4csks0s0g
+    restart: unless-stopped
+    labels:
+      - kuori.managed=true
+      - kuori.version=4.0.0-beta.373
+      - kuori.serviceId=23
+      - kuori.type=service
+      - kuori.name=temporal-admin-tools-f0wwwgkkc488wsk4csks0s0g
+      - kuori.pullRequestId=0
+      - kuori.service.subId=195
+      - kuori.service.subType=application
+    networks:
+      f0wwwgkkc488wsk4csks0s0g: null
+  temporal-ui:
+    image: "temporalio/ui:2.10.3"
+    depends_on:
+      - temporal
+    environment:
+      TEMPORAL_ADDRESS: "temporal:7233"
+      TEMPORAL_CORS_ORIGINS: "http://localhost:3000"
+      KUORI_CONTAINER_NAME: '"temporal-ui-f0wwwgkkc488wsk4csks0s0g"'
+    container_name: temporal-ui-f0wwwgkkc488wsk4csks0s0g
+    restart: unless-stopped
+    labels:
+      - kuori.managed=true
+      - kuori.version=4.0.0-beta.373
+      - kuori.serviceId=23
+      - kuori.type=service
+      - kuori.name=temporal-ui-f0wwwgkkc488wsk4csks0s0g
+      - kuori.pullRequestId=0
+      - kuori.service.subId=196
+      - kuori.service.subType=application
+    networks:
+      f0wwwgkkc488wsk4csks0s0g: null
+  temporal-django-worker:
+    image: "posthog/posthog:latest"
+    command: ./bin/temporal-django-worker
+    environment:
+      DISABLE_SECURE_SSL_REDIRECT: "true"
+      IS_BEHIND_PROXY: "true"
+      TRUST_ALL_PROXIES: "true"
+      DATABASE_URL: "postgres://posthog:$SERVICE_PASSWORD_POSTGRES@db:5432/posthog"
+      CLICKHOUSE_HOST: clickhouse
+      CLICKHOUSE_DATABASE: posthog
+      CLICKHOUSE_SECURE: "false"
+      CLICKHOUSE_VERIFY: "false"
+      KAFKA_HOSTS: kafka
+      REDIS_URL: "redis://redis:6379/"
+      PGHOST: db
+      PGUSER: posthog
+      PGPASSWORD: $SERVICE_PASSWORD_POSTGRES
+      DEPLOYMENT: hobby
+      SITE_URL: $SERVICE_FQDN_WEB
+      SECRET_KEY: $SERVICE_BASE64_64_SECRETKEY
+      ENCRYPTION_SALT_KEYS: "${SERVICE_ENCRYPTION_SALT_KEYS:-00beef0000beef0000beef0000beef00}"
+      TEMPORAL_HOST: temporal
+      KUORI_CONTAINER_NAME: '"temporal-django-worker-f0wwwgkkc488wsk4csks0s0g"'
+    depends_on:
+      - db
+      - redis
+      - clickhouse
+      - kafka
+      - object_storage
+      - temporal
+    container_name: temporal-django-worker-f0wwwgkkc488wsk4csks0s0g
+    restart: unless-stopped
+    labels:
+      - kuori.managed=true
+      - kuori.version=4.0.0-beta.373
+      - kuori.serviceId=23
+      - kuori.type=service
+      - kuori.name=temporal-django-worker-f0wwwgkkc488wsk4csks0s0g
+      - kuori.pullRequestId=0
+      - kuori.service.subId=197
+      - kuori.service.subType=application
+    networks:
+      f0wwwgkkc488wsk4csks0s0g: null
+volumes:
+  f0wwwgkkc488wsk4csks0s0g_posthog-postgres-data:
+    name: f0wwwgkkc488wsk4csks0s0g_posthog-postgres-data
+  f0wwwgkkc488wsk4csks0s0g_clickhouse-data:
+    name: f0wwwgkkc488wsk4csks0s0g_clickhouse-data
+  f0wwwgkkc488wsk4csks0s0g_zookeeper-datalog:
+    name: f0wwwgkkc488wsk4csks0s0g_zookeeper-datalog
+  f0wwwgkkc488wsk4csks0s0g_zookeeper-data:
+    name: f0wwwgkkc488wsk4csks0s0g_zookeeper-data
+  f0wwwgkkc488wsk4csks0s0g_zookeeper-logs:
+    name: f0wwwgkkc488wsk4csks0s0g_zookeeper-logs
+  f0wwwgkkc488wsk4csks0s0g_object-storage:
+    name: f0wwwgkkc488wsk4csks0s0g_object-storage
+  f0wwwgkkc488wsk4csks0s0g_elasticsearch-data:
+    name: f0wwwgkkc488wsk4csks0s0g_elasticsearch-data
+networks:
+  f0wwwgkkc488wsk4csks0s0g:
+    name: f0wwwgkkc488wsk4csks0s0g
+    external: true
+configs: {}
+secrets: {}
