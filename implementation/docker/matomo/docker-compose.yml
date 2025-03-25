@@ -27,7 +27,7 @@ services:
     depends_on:
       - matomo_db
 
-  matomo_db:
+  matomo-mariadb:
     image: mariadb:10.11
     container_name: matomo_db
     command: --max-allowed-packet=64MB
@@ -58,3 +58,45 @@ services:
 volumes:
   matomo:
   matomo_db:
+# services:
+#   matomo:
+#     image: 'matomo:latest'
+#     container_name: matomo
+#     volumes:
+#       - 'matomo-config:/var/www/html/config:rw'
+#       - 'matomo-logs:/var/www/html/logs:rw'
+#       - 'matomo:/var/www/html:rw'
+#     depends_on:
+#       - matomo-mariadb
+#     environment:
+#       - SERVICE_FQDN_MATOMO_80
+#       - 'MATOMO_DATABASE_ADAPTER=${MATOMO_DATABASE_ADAPTER:-mysql}'
+#       - 'MATOMO_DATABASE_TABLES_PREFIX=${MATOMO_DATABASE_TABLES_PREFIX:-matomo_}'
+#       - MATOMO_DATABASE_USERNAME=$SERVICE_USER_MARIADB
+#       - MATOMO_DATABASE_PASSWORD=$SERVICE_PASSWORD_MARIADB
+#       - MATOMO_DATABASE_DBNAME=matomo_db
+#   matomo-mariadb:
+#     image: 'mariadb:10.11'
+#     container_name: matomo-mariadb
+#     volumes:
+#       - 'matomo-mariadb:/var/lib/mysql:rw'
+#     environment:
+#       - MYSQL_ROOT_PASSWORD=$SERVICE_PASSWORD_MARIADBROOT
+#       - 'MYSQL_DATABASE=${MATOMO_DATABASE_DBNAME:-matomo_db}'
+#       - MYSQL_USER=$SERVICE_USER_MARIADB
+#       - MYSQL_PASSWORD=$SERVICE_PASSWORD_MARIADB
+#       - MARIADB_AUTO_UPGRADE=1
+#     command: 'mysqld --innodb-flush-method=fsync'
+#     healthcheck:
+#       test:
+#         - CMD
+#         - healthcheck.sh
+#         - '--connect'
+#         - '--innodb_initialized'
+#       start_period: 10s
+#       interval: 10s
+#       timeout: 5s
+#       retries: 3
+# volumes:
+#   matomo: null
+#   matomo-mariadb: null
