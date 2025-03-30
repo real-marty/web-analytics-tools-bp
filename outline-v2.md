@@ -89,7 +89,7 @@
 
 ---
 
-### 10. Vyhodnocení dostupných softwarových nástrojů podle definovaných požadavků
+### 10. Vyhodnocení dostupných softwarových řešení podle definovaných požadavků
 - Vytvoření hodnoticího rámce (bodové a penalizační skóre).
 
 **Poznámky:**
@@ -109,7 +109,7 @@
   
 ---
 
-### 12. Metodický průvodce implementací zvoleného řešení
+### 12. Systematicky strukturovaný návod k využívání platforem
 - Odkazy na oficiální dokumentaci.
 - Konfigurační soubory a příklady nasazení.
 - Stručný návod pro praktickou aplikaci.
