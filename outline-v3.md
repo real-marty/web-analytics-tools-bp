@@ -29,10 +29,14 @@
 → Odůvodnění použití i neakademických zdrojů (např. nové nástroje jako PostHog, absence aktuálních informací v klasické literatuře).
 
 ### **2.2  Přehled analytických přístupů**
-
+- analytika - je velice siroky pojem
 - Různorodost typů analýz umožněných vybranými nástroji.
 - Zkoumané nástroje obvykle podporují více typů analýz (produktová analytika, behaviorální analýza apod.).
-  - Druhy anal
+- Hlavní druhy analytiky
+- Souvislost mezi jednotlivými typy analytiky 
+  - Ačkoli jsou jednotlivé typy analytiky zpravidla vymezeny jako samostatné disciplíny, v praktickém uplatnění mezi nimi často dochází k tematickému překryvu.
+- Infrastrukturní prvky potřebné pro analytiku
+- Oblasti úzce související s analytikou
 - Není zaměřeno výhradně na jediný analytický přístup.
 
 ### **2.3 Vymezení konceptu webové analytiky**
