@@ -1,6 +1,6 @@
 # **Outline analytické části bakalářské práce**
 
-## **1. Úvod**
+## **1. Úvod - teorie**
 - Úvod je klíčový pro vytvoření prvního dojmu.  
 - Měl by obsahovat:
   - Stručný nástin problematiky (1–2 odstavce).
@@ -12,13 +12,13 @@
 - **Poznámka**: Neuvádět, co bylo vykonáno – to patří až do závěru.  
 - **Rozsah**: maximálně jedna strana textu.
 
-## **2. Cíl a zaměření práce**
+## **2. Cíl a zaměření práce -teorie**
 - Primárním cílem je **komparativní analýza webových analytických nástrojů**, s ohledem na potřeby konkrétní firmy a autorovy vlastní požadavky.
 - Většina zvolených nástrojů umožňuje kromě webové analytiky také jiné typy analýz (např. produktová analytika, uživatelské chování atd.).
 - Konec této části bude věnován **formulaci požadavků firmy CCA** a **vlastních požadavků** na analytické nástroje.
 
 
-## **3. Kontext a vymezení analytiky**
+## **3. Kontext a vymezení analytiky - teorie**
 - Analytika je široký a rozmanitý obor, zahrnující různé disciplíny a typy softwarových nástrojů.
 - Tato práce se zaměří konkrétně na **webovou analytiku**, s přesahem do dalších typů analýz, které moderní nástroje rovněž nabízejí.
 - Pro doložení relevance tématu bude citována práce:  
@@ -33,7 +33,7 @@
 
 
 
-## **4. Rozbor požadavků**
+## **4. Rozbor požadavků - prakticka**
 - Rozbor jednotlivých požadavků, jejich význam a případné rozšířené vysvětlení:
   
   **Požadavky firmy CCA:**
@@ -52,7 +52,7 @@
   - Přesnost sběru dat i v přítomnosti blokátorů
 
 
-## **5. Porovnání analytických nástrojů**
+## **5. Porovnání analytických nástrojů - prakticka**
 - Analýza vybraných nástrojů (např. **PostHog**, **Matomo**, …):
   - Funkce, splnění požadavků
   - Ceníky a licenční modely
@@ -60,7 +60,7 @@
 
 
 
-## **6. Teoretická část – nasazení analytických nástrojů**
+## **6. Teoretická část – nasazení analytických nástrojů - teoreticka / prakticka**
 - Jak funguje technické nasazení:
   - Docker
   - Reverzní proxy
@@ -68,7 +68,7 @@
   - Požadavky na DNS, firewall
   - Technická náročnost
 
-## **7. Legislativa a technické limity sběru dat**
+## **7. Legislativa a technické limity sběru dat - teoreticka**
 - Problémy způsobené blokátory (např. AdBlock)
 - Dopady GDPR:
   - Zkreslení dat

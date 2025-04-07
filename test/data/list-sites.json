@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Home",
+        "url": "https://b8g408o4kgcw48kssw080s4g.kuori.cz/",
+        "description": "Home page of the vavricka-projekce-tests project"
+    },
+    {
+        "id": 2,
+        "name": "Services",
+        "url": "https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby",
+        "description": "Services page of the vavricka-projekce-tests project"
+    },
+    {
+        "id": 3,
+        "name": "References",
+        "url": "https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference",
+        "description": "References page of the vavricka-projekce-tests project"
+    },
+    {
+        "id": 4,
+        "name": "Contact",
+        "url": "https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty",
+        "description": "Contact page of the vavricka-projekce-tests project"
+    },
+    {
+        "id": 5,
+        "name": "Q&A",
+        "url": "https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy",
+        "description": "Q&A page of the vavricka-projekce-tests project"
+    }
+]
