@@ -121,7 +121,7 @@
 - Free-tier modely a nákladové kalkulace (např. PostHog).
 - Hodnocení dokumentace a podpory SDK.
 
-### **6.2 Systematicky strukturovaný návod k využívání platforem**
+### **6.2 Systematicky strukturovaný přehled využití platforem**
 
 - Odkazy na dokumentaci, ukázky konfigurací.
 - Možnosti integrace do různých vývojových prostředí.
@@ -154,3 +154,4 @@
 - Reflexe nad výběrem nástroje a jeho využitelností.
 - Doporučení pro další vývoj a nasazení v projektech CCA i mimo ně.
   
+### **mdpi.com - davat si pozor**
