@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node scripts/analytics.ts"
+    "brave": "ts-node scripts/analytics.ts brave",
+    "chromium": "ts-node scripts/analytics.ts chromium"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +17,6 @@
     "ts-node": "^10.9.2"
   },
   "dependencies": {
-    "dotenv": "^16.4.7",
     "playwright-extra": "^4.3.6"
   }
 }
