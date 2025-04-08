@@ -13,21 +13,25 @@ const websiteList: Website[] = websites;
 const browserType = process.argv[2] || 'default-browser';
 
 /**
- * Interface used to collect metrics from each simulation.
+ * Interface for collecting metrics from each simulation.
  */
 interface SimulationMetrics {
     userId: number;
     proxy: string;
-    sitesVisited: number; // number of website clicks attempted
+    sitesVisited: number;          // Number of website visits attempted
     successfulClicks: number;
     failedClicks: number;
-    visitedSites: { [siteUrl: string]: number }; // counts per site
-    durationMs: number;
-    bounce: boolean; // true if only one site was visited from websiteList
+    visitedSites: { [siteUrl: string]: number };  // Distribution of clicks per site
+    totalDwellTimeMs: number;      // Total dwell time (in ms) for all visited sites in the simulation
+    dwellTimes: number[];          // Array of dwell times (in ms) for each site visited
+    durationMs: number;            // Duration of the entire simulation
 }
 
 /**
  * Simulates a visit using a given proxy and collects various metrics.
+ *
+ * The dwell time for each visited page is randomly simulated between 2000 and 10000 ms.
+ * For sessions that only visit one page, we consider the single-page dwell time as the bounce time.
  *
  * @param proxyConfig - The proxy server string (e.g. "http://45.202.79.181:3128").
  * @param userId - An identifier for logging purposes.
@@ -39,7 +43,7 @@ async function simulateVisit(
     userId: number,
     browserType: string
 ): Promise<SimulationMetrics> {
-    const startTime = Date.now();
+    const simulationStartTime = Date.now();
     const simulationMetrics: SimulationMetrics = {
         userId,
         proxy: proxyConfig,
@@ -47,8 +51,9 @@ async function simulateVisit(
         successfulClicks: 0,
         failedClicks: 0,
         visitedSites: {},
+        totalDwellTimeMs: 0,
+        dwellTimes: [],
         durationMs: 0,
-        bounce: false,
     };
 
     let browser: Browser;
@@ -90,19 +95,29 @@ async function simulateVisit(
     await page.goto('https://b8g408o4kgcw48kssw080s4g.kuori.cz/', { waitUntil: 'domcontentloaded' });
     await page.waitForTimeout(3000);
 
-    // Step 2: Randomly determine a number of website clicks (1 to 5).
+    // Step 2: Randomly determine the number of website visits (between 1 and 5).
     const numberOfVisits = Math.floor(Math.random() * 5) + 1;
     simulationMetrics.sitesVisited = numberOfVisits;
 
-    // Shuffle the website list and choose "numberOfVisits" sites.
+    // Shuffle the website list and select a random subset equal to numberOfVisits.
     const shuffledWebsites = websiteList.sort(() => 0.5 - Math.random()).slice(0, numberOfVisits);
 
     for (let i = 0; i < shuffledWebsites.length; i++) {
         const site = shuffledWebsites[i];
         console.log(`User ${userId}: Visiting ${site.url}`);
         try {
+            // Navigate to the website.
             await page.goto(site.url, { waitUntil: 'domcontentloaded' });
-            await page.waitForTimeout(2000);
+
+            // Simulate a dwell time on the page.
+            // Random dwell time between 2000 and 10000 milliseconds.
+            const dwellTime = Math.floor(Math.random() * 8000) + 2000;
+            console.log(`User ${userId}: Staying on ${site.url} for ${dwellTime} ms.`);
+            await page.waitForTimeout(dwellTime);
+            simulationMetrics.totalDwellTimeMs += dwellTime;
+            simulationMetrics.dwellTimes.push(dwellTime);
+
+            // Attempt to click the link on the website.
             await page.click(`a[href="${site.href}"]`, { timeout: 3000 });
             simulationMetrics.successfulClicks++;
             simulationMetrics.visitedSites[site.url] = (simulationMetrics.visitedSites[site.url] || 0) + 1;
@@ -114,10 +129,8 @@ async function simulateVisit(
     }
 
     await browser.close();
-    const endTime = Date.now();
-    simulationMetrics.durationMs = endTime - startTime;
-    // Define a bounce session as one with only one visited website (from the website list).
-    simulationMetrics.bounce = (simulationMetrics.sitesVisited === 1);
+    const simulationEndTime = Date.now();
+    simulationMetrics.durationMs = simulationEndTime - simulationStartTime;
     console.log(`User ${userId}: Simulation complete in ${simulationMetrics.durationMs} ms.`);
     return simulationMetrics;
 }
@@ -148,7 +161,6 @@ async function simulateVisit(
                     .then(resolve)
                     .catch(err => {
                         console.error(`User ${index + 1}: Error during simulation - ${err}`);
-                        // Return metrics with zeros in case of an error.
                         resolve({
                             userId: index + 1,
                             proxy: proxyConfig,
@@ -156,8 +168,9 @@ async function simulateVisit(
                             successfulClicks: 0,
                             failedClicks: 0,
                             visitedSites: {},
+                            totalDwellTimeMs: 0,
+                            dwellTimes: [],
                             durationMs: 0,
-                            bounce: false,
                         });
                     });
             }, delayMs);
@@ -167,7 +180,7 @@ async function simulateVisit(
     // Wait for all simulations to complete.
     const metricsArray = await Promise.all(simulations);
 
-    // Aggregate global metrics.
+    // Aggregation of global metrics.
     const totalSimulations = metricsArray.length;
     const goodProxies = selectedProxies.length;
     const totalSitesVisited = metricsArray.reduce((acc, sim) => acc + sim.sitesVisited, 0);
@@ -175,10 +188,13 @@ async function simulateVisit(
     const totalFailedClicks = metricsArray.reduce((acc, sim) => acc + sim.failedClicks, 0);
     const totalClicks = totalSuccessfulClicks + totalFailedClicks;
     const successfulSimulations = metricsArray.filter(sim => sim.successfulClicks > 0).length;
-    const bounceSessions = metricsArray.filter(sim => sim.bounce).length;
-    const avgSimulationDuration = metricsArray.reduce((acc, sim) => acc + sim.durationMs, 0) / (totalSimulations || 1);
-    const bounceRate = (bounceSessions / totalSimulations) * 100;
-    const clickSuccessRate = totalClicks > 0 ? (totalSuccessfulClicks / totalClicks) * 100 : 0;
+    const totalDwellTime = metricsArray.reduce((acc, sim) => acc + sim.totalDwellTimeMs, 0);
+    const averageDwellTimePerVisit = totalSitesVisited > 0 ? totalDwellTime / totalSitesVisited : 0;
+
+    // Compute bounce sessions as those with only one visited site.
+    const bounceSessions = metricsArray.filter(sim => sim.sitesVisited === 1);
+    const totalBounceTime = bounceSessions.reduce((acc, sim) => acc + sim.totalDwellTimeMs, 0);
+    const averageBounceTime = bounceSessions.length > 0 ? totalBounceTime / bounceSessions.length : 0;
 
     // Aggregate a distribution of clicks per site.
     const siteDistribution: { [siteUrl: string]: number } = {};
@@ -196,9 +212,11 @@ async function simulateVisit(
     console.log(`Total Sites Visited (attempted): ${totalSitesVisited}`);
     console.log(`Total Successful Clicks: ${totalSuccessfulClicks}`);
     console.log(`Total Failed Clicks: ${totalFailedClicks}`);
-    console.log(`Overall Click Success Rate: ${clickSuccessRate.toFixed(2)}%`);
-    console.log(`Bounce Sessions (only one page visited): ${bounceSessions} (${bounceRate.toFixed(2)}%)`);
-    console.log(`Average Simulation Duration: ${avgSimulationDuration.toFixed(0)} ms`);
+    console.log(`Overall Click Success Rate: ${totalClicks > 0 ? ((totalSuccessfulClicks / totalClicks) * 100).toFixed(2) : 0}%`);
+    console.log(`Total Dwell Time (all visits): ${totalDwellTime} ms`);
+    console.log(`Average Dwell Time per Visit: ${averageDwellTimePerVisit.toFixed(0)} ms`);
+    console.log(`\nBounce Sessions (only one page visited): ${bounceSessions.length}`);
+    console.log(`Average Bounce Time (single-page dwell time): ${(averageBounceTime / 1000).toFixed(2)} seconds`);
     console.log("\nDistribution of clicks per site:");
     Object.entries(siteDistribution).forEach(([siteUrl, count]) => {
         console.log(`- ${siteUrl}: ${count} click(s)`);
