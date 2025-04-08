@@ -14,6 +14,11 @@ import { BRAVE_EXECUTABLE_PATH } from '../constants';
 const websiteList: Website[] = websites;
 const proxyList: ProxyInfo[] = proxies;
 
+const browser = process.argv[2] || 'default-browser';
+
+
+
+
 
 (async () => {
     // Use 10 proxies (ensure your proxy list contains at least 10 entries).
@@ -92,36 +97,46 @@ const proxyList: ProxyInfo[] = proxies;
 
         await browser.close();
 
-        // // Navigate to the first site.
-        // const firstSite: Website = websiteList[0];
-        // console.log(`User ${userId}: Navigating to ${firstSite.url}`);
-        // await page.goto(firstSite.url);
+        // Navigate to the first site.
+        const firstSite: Website = websiteList[0];
+        console.log(`User ${userId}: Navigating to ${firstSite.url}`);
+        await page.goto(firstSite.url);
 
-        // // Try clicking on the element with the href value from the first site.
-        // try {
-        //   await page.click(`a[href="${firstSite.href}"]`, { timeout: 50000 });
-        //   console.log(`User ${userId}: Clicked link with href "${firstSite.href}" on first site.`);
-        // } catch (e) {
-        //   console.log(`User ${userId}: Link with href "${firstSite.href}" not found on first site.`);
-        // }
+        // Try clicking on the element with the href value from the first site.
+        try {
+            await page.click(`a[href="${firstSite.href}"]`, { timeout: 50000 });
+            console.log(`User ${userId}: Clicked link with href "${firstSite.href}" on first site.`);
+        } catch (e) {
+            console.log(`User ${userId}: Link with href "${firstSite.href}" not found on first site.`);
+        }
 
-        // // Navigate to the second site.
-        // const secondSite: Website = websiteList[indices[1]];
-        // console.log(`User ${userId}: Navigating to ${secondSite.url}`);
-        // await page.goto(secondSite.url);
+        // Navigate to the second site.
+        const secondSite: Website = websiteList[indices[1]];
+        console.log(`User ${userId}: Navigating to ${secondSite.url}`);
+        await page.goto(secondSite.url);
 
-        // await page.waitForTimeout(6000);
+        await page.waitForTimeout(6000);
 
-        // // Try clicking on the element with the href value from the second site.
-        // try {
-        //   await page.click(`a[href="${secondSite.href}"]`, { timeout: 50000 });
-        //   console.log(`User ${userId}: Clicked link with href "${secondSite.href}" on second site.`);
-        // } catch (e) {
-        //   console.log(`User ${userId}: Link with href "${secondSite.href}" not found on second site.`);
-        // }
+        // Try clicking on the element with the href value from the second site.
+        try {
+            await page.click(`a[href="${secondSite.href}"]`, { timeout: 50000 });
+            console.log(`User ${userId}: Clicked link with href "${secondSite.href}" on second site.`);
+        } catch (e) {
+            console.log(`User ${userId}: Link with href "${secondSite.href}" not found on second site.`);
+        }
 
-        // await browser.close();
-        // console.log(`User ${userId}: Simulation complete.`); 
+        await browser.close();
+        console.log(`User ${userId}: Simulation complete.`);
+    }
+
+
+    //todo - run chromium or brave
+    if (browser === 'brave') {
+        console.log('Running Brave analytics...');
+        // Brave-specific logic
+    } else {
+        console.log('Running Chromium analytics...');
+        // Chromium-specific logic
     }
 
     const simulations: Promise<void>[] = selectedProxies.map((proxyConfig, index) =>
