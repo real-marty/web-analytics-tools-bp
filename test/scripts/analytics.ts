@@ -1,147 +1,207 @@
-// ─────────────────────────────────────────────────────────────
-// Imports
-// ─────────────────────────────────────────────────────────────
-import { chromium, Browser, BrowserContext, Page } from 'playwright';
-import websites from '../data/list-sites.json';
-import proxies from '../data/proxy-1.json';
-import type { Website, ProxyInfo } from '../types';
 import { BRAVE_EXECUTABLE_PATH } from '../constants';
+import { chromium, Browser, BrowserContext, Page } from 'playwright';
+// types
+import type { Website } from '../types';
+// utils
+import { readFileLines } from "../utils/reader";
+import { getWorkingProxies } from "../utils/proxy-tester";
+// data
+import websites from '../data/list-sites.json';
 
-// ─────────────────────────────────────────────────────────────
-// Data Setup
-// ─────────────────────────────────────────────────────────────
-// Cast the imported JSON data to our interfaces.
+// Cast the imported JSON data to our interface.
 const websiteList: Website[] = websites;
-const proxyList: ProxyInfo[] = proxies;
+const browserType = process.argv[2] || 'default-browser';
 
-const browser = process.argv[2] || 'default-browser';
+/**
+ * Interface used to collect metrics from each simulation.
+ */
+interface SimulationMetrics {
+    userId: number;
+    proxy: string;
+    sitesVisited: number; // number of website clicks attempted
+    successfulClicks: number;
+    failedClicks: number;
+    visitedSites: { [siteUrl: string]: number }; // counts per site
+    durationMs: number;
+    bounce: boolean; // true if only one site was visited from websiteList
+}
 
+/**
+ * Simulates a visit using a given proxy and collects various metrics.
+ *
+ * @param proxyConfig - The proxy server string (e.g. "http://45.202.79.181:3128").
+ * @param userId - An identifier for logging purposes.
+ * @param browserType - Either 'brave' (using Brave’s executable) or 'chromium' (default).
+ * @returns A Promise that resolves to a SimulationMetrics object.
+ */
+async function simulateVisit(
+    proxyConfig: string,
+    userId: number,
+    browserType: string
+): Promise<SimulationMetrics> {
+    const startTime = Date.now();
+    const simulationMetrics: SimulationMetrics = {
+        userId,
+        proxy: proxyConfig,
+        sitesVisited: 0,
+        successfulClicks: 0,
+        failedClicks: 0,
+        visitedSites: {},
+        durationMs: 0,
+        bounce: false,
+    };
 
+    let browser: Browser;
+    if (browserType === 'brave') {
+        browser = await chromium.launch({
+            headless: false,
+            executablePath: BRAVE_EXECUTABLE_PATH,
+            proxy: { server: proxyConfig },
+        });
+    } else {
+        browser = await chromium.launch({
+            headless: false,
+            proxy: { server: proxyConfig },
+        });
+    }
 
+    const context = await browser.newContext();
+    const page = await context.newPage();
 
+    // Block images, styles, fonts, and media.
+    await page.route('**/*', (route) => {
+        const request = route.request();
+        const url = request.url().toLowerCase();
+        const resourceType = request.resourceType();
+        const blockedTypes = ['image', 'stylesheet', 'font', 'media'];
+        const blockedExtensions = ['.webp', '.woff', '.woff2', '.ttf', '.otf', '.eot', '.svg', '.ico', '.x-icon'];
+        if (
+            blockedTypes.includes(resourceType) ||
+            blockedExtensions.some(ext => url.endsWith(ext))
+        ) {
+            route.abort();
+        } else {
+            route.continue();
+        }
+    });
+
+    // Step 1: Navigate to an IP test page.
+    console.log(`User ${userId}: Navigating to the IP test page.`);
+    await page.goto('https://b8g408o4kgcw48kssw080s4g.kuori.cz/', { waitUntil: 'domcontentloaded' });
+    await page.waitForTimeout(3000);
+
+    // Step 2: Randomly determine a number of website clicks (1 to 5).
+    const numberOfVisits = Math.floor(Math.random() * 5) + 1;
+    simulationMetrics.sitesVisited = numberOfVisits;
+
+    // Shuffle the website list and choose "numberOfVisits" sites.
+    const shuffledWebsites = websiteList.sort(() => 0.5 - Math.random()).slice(0, numberOfVisits);
+
+    for (let i = 0; i < shuffledWebsites.length; i++) {
+        const site = shuffledWebsites[i];
+        console.log(`User ${userId}: Visiting ${site.url}`);
+        try {
+            await page.goto(site.url, { waitUntil: 'domcontentloaded' });
+            await page.waitForTimeout(2000);
+            await page.click(`a[href="${site.href}"]`, { timeout: 3000 });
+            simulationMetrics.successfulClicks++;
+            simulationMetrics.visitedSites[site.url] = (simulationMetrics.visitedSites[site.url] || 0) + 1;
+            console.log(`User ${userId}: Clicked link with href "${site.href}" on ${site.url}`);
+        } catch (e: any) {
+            simulationMetrics.failedClicks++;
+            console.log(`User ${userId}: Failed clicking link with href "${site.href}" on ${site.url} - ${e.message}`);
+        }
+    }
+
+    await browser.close();
+    const endTime = Date.now();
+    simulationMetrics.durationMs = endTime - startTime;
+    // Define a bounce session as one with only one visited website (from the website list).
+    simulationMetrics.bounce = (simulationMetrics.sitesVisited === 1);
+    console.log(`User ${userId}: Simulation complete in ${simulationMetrics.durationMs} ms.`);
+    return simulationMetrics;
+}
 
 (async () => {
-    // Use 10 proxies (ensure your proxy list contains at least 10 entries).
-    const selectedProxies: ProxyInfo[] = proxyList.slice(0, 1);
+    let simulations: Promise<SimulationMetrics>[] = [];
 
-    // Function to simulate a single visitor.
-    async function simulateVisit(proxyConfig: ProxyInfo, userId: number): Promise<void> {
-        // Construct the proxy string using the first protocol (e.g., socks4 or socks5).
-        // const protocol: string = proxyConfig.protocols[0];
-        // const proxyServer: string = `${protocol}://${proxyConfig.ip}:${proxyConfig.port}`;
-        // console.log(`User ${userId}: Using proxy ${proxyServer}`);
+    // Retrieve working proxies.
+    const working = await getWorkingProxies('./data/proxies.txt');
+    console.log('\n✅ Final working proxies:', working);
 
-        // Launch the browser (using Brave with the adblocker enabled).
-        const browser = await chromium.launch({
-            headless: false,
-            // executablePath: BRAVE_EXECUTABLE_PATH,
-            proxy: {
-                // server: 'http://gate.smartproxy.com:7000',
-                server: 'http://45.202.79.181:3128',
-                // username: 'spckg7bvq4',
-                // password: '28dA7YVithfV0ks=es',
-            },
-        });
-        // const browser = await chromium.launch({
-        // headless: false,
-        // proxy: {
-        //     server: 'socks5h://spxes4qcig:oc_sH3tHzGycgN08w3@gate.smartproxy.com:7000', 
-        //     // username: 'spxes4qcig',
-        //     // password: 'oc_sH3tHzGycgN08w3',
-        // },
-        // });
+    // Use a selection of working proxies (ensure you have enough proxies in your file).
+    const selectedProxies: string[] = working.slice(0, 3);
 
-        // const context: BrowserContext = await browser.newContext();
-        // const page: Page = await context.newPage();
-
-        // // Randomly choose 2 distinct websites.
-        // const indices: number[] = [];
-        // while (indices.length < 2) {
-        //   const randomIndex: number = Math.floor(Math.random() * websiteList.length);
-        //   if (!indices.includes(randomIndex)) {
-        //     indices.push(randomIndex);
-        //   }
-        // }
-
-
-        const context = await browser.newContext();
-        const page = await context.newPage();
-
-        // 🔇 Block all images
-        await page.route('**/*', (route) => {
-            const request = route.request();
-            const url = request.url().toLowerCase();
-            const resourceType = request.resourceType();
-
-            // Block by resource type
-            const blockedTypes = ['image', 'stylesheet', 'font', 'media'];
-
-            // Block by file extension or specific URLs
-            const blockedExtensions = ['.webp', '.woff', '.woff2', '.ttf', '.otf', '.eot', '.svg', '.ico', '.x-icon'];
-
-            if (
-                blockedTypes.includes(resourceType) ||
-                blockedExtensions.some(ext => url.endsWith(ext))
-            ) {
-                route.abort();
-            } else {
-                route.continue();
-            }
-        });
-
-        // Navigate to IP test page
-        await page.goto('https://b8g408o4kgcw48kssw080s4g.kuori.cz/', { waitUntil: 'domcontentloaded' });
-
-        // Wait for 6 seconds
-        await page.waitForTimeout(600000);
-
-        await browser.close();
-
-        // Navigate to the first site.
-        const firstSite: Website = websiteList[0];
-        console.log(`User ${userId}: Navigating to ${firstSite.url}`);
-        await page.goto(firstSite.url);
-
-        // Try clicking on the element with the href value from the first site.
-        try {
-            await page.click(`a[href="${firstSite.href}"]`, { timeout: 50000 });
-            console.log(`User ${userId}: Clicked link with href "${firstSite.href}" on first site.`);
-        } catch (e) {
-            console.log(`User ${userId}: Link with href "${firstSite.href}" not found on first site.`);
-        }
-
-        // Navigate to the second site.
-        const secondSite: Website = websiteList[indices[1]];
-        console.log(`User ${userId}: Navigating to ${secondSite.url}`);
-        await page.goto(secondSite.url);
-
-        await page.waitForTimeout(6000);
-
-        // Try clicking on the element with the href value from the second site.
-        try {
-            await page.click(`a[href="${secondSite.href}"]`, { timeout: 50000 });
-            console.log(`User ${userId}: Clicked link with href "${secondSite.href}" on second site.`);
-        } catch (e) {
-            console.log(`User ${userId}: Link with href "${secondSite.href}" not found on second site.`);
-        }
-
-        await browser.close();
-        console.log(`User ${userId}: Simulation complete.`);
+    if (browserType !== 'brave' && browserType !== 'chromium') {
+        console.log(`Invalid browser type. Please use 'brave' or 'chromium'.`);
+        return;
     }
 
+    // Distribute simulations evenly over one hour.
+    const hourMs = 3600000; // One hour in milliseconds.
+    simulations = selectedProxies.map((proxyConfig, index) => {
+        // Calculate a delay to spread the simulations over the hour.
+        const delayMs = Math.floor((hourMs / selectedProxies.length) * index);
+        return new Promise<SimulationMetrics>((resolve) => {
+            setTimeout(() => {
+                simulateVisit(proxyConfig, index + 1, browserType)
+                    .then(resolve)
+                    .catch(err => {
+                        console.error(`User ${index + 1}: Error during simulation - ${err}`);
+                        // Return metrics with zeros in case of an error.
+                        resolve({
+                            userId: index + 1,
+                            proxy: proxyConfig,
+                            sitesVisited: 0,
+                            successfulClicks: 0,
+                            failedClicks: 0,
+                            visitedSites: {},
+                            durationMs: 0,
+                            bounce: false,
+                        });
+                    });
+            }, delayMs);
+        });
+    });
 
-    //todo - run chromium or brave
-    if (browser === 'brave') {
-        console.log('Running Brave analytics...');
-        // Brave-specific logic
-    } else {
-        console.log('Running Chromium analytics...');
-        // Chromium-specific logic
-    }
+    // Wait for all simulations to complete.
+    const metricsArray = await Promise.all(simulations);
 
-    const simulations: Promise<void>[] = selectedProxies.map((proxyConfig, index) =>
-        simulateVisit(proxyConfig, index + 1)
-    );
-    await Promise.all(simulations);
+    // Aggregate global metrics.
+    const totalSimulations = metricsArray.length;
+    const goodProxies = selectedProxies.length;
+    const totalSitesVisited = metricsArray.reduce((acc, sim) => acc + sim.sitesVisited, 0);
+    const totalSuccessfulClicks = metricsArray.reduce((acc, sim) => acc + sim.successfulClicks, 0);
+    const totalFailedClicks = metricsArray.reduce((acc, sim) => acc + sim.failedClicks, 0);
+    const totalClicks = totalSuccessfulClicks + totalFailedClicks;
+    const successfulSimulations = metricsArray.filter(sim => sim.successfulClicks > 0).length;
+    const bounceSessions = metricsArray.filter(sim => sim.bounce).length;
+    const avgSimulationDuration = metricsArray.reduce((acc, sim) => acc + sim.durationMs, 0) / (totalSimulations || 1);
+    const bounceRate = (bounceSessions / totalSimulations) * 100;
+    const clickSuccessRate = totalClicks > 0 ? (totalSuccessfulClicks / totalClicks) * 100 : 0;
 
+    // Aggregate a distribution of clicks per site.
+    const siteDistribution: { [siteUrl: string]: number } = {};
+    metricsArray.forEach(sim => {
+        for (const [siteUrl, count] of Object.entries(sim.visitedSites)) {
+            siteDistribution[siteUrl] = (siteDistribution[siteUrl] || 0) + count;
+        }
+    });
+
+    // Print out aggregated metrics.
+    console.log("\n--- Simulation Metrics Summary ---");
+    console.log(`Good Proxies: ${goodProxies}`);
+    console.log(`Total Simulations: ${totalSimulations}`);
+    console.log(`Successful Simulations: ${successfulSimulations}`);
+    console.log(`Total Sites Visited (attempted): ${totalSitesVisited}`);
+    console.log(`Total Successful Clicks: ${totalSuccessfulClicks}`);
+    console.log(`Total Failed Clicks: ${totalFailedClicks}`);
+    console.log(`Overall Click Success Rate: ${clickSuccessRate.toFixed(2)}%`);
+    console.log(`Bounce Sessions (only one page visited): ${bounceSessions} (${bounceRate.toFixed(2)}%)`);
+    console.log(`Average Simulation Duration: ${avgSimulationDuration.toFixed(0)} ms`);
+    console.log("\nDistribution of clicks per site:");
+    Object.entries(siteDistribution).forEach(([siteUrl, count]) => {
+        console.log(`- ${siteUrl}: ${count} click(s)`);
+    });
+    console.log('-----------------------------------');
 })();
