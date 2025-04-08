@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strict": true, // volitelné, ale doporučené
+    "moduleResolution": "node", // pro správné hledání modulů
+    "outDir": "dist" // volitelné
+  },
+  "include": [
+    "scripts/**/*.ts"
+  ]
+}
