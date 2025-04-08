@@ -57,17 +57,22 @@
 
 ---
 
-## **3. Přehled nástrojů pro analýzu webového provozu**
+## **3. Přehled nástrojů a technologií**
 
-### **3.1 Návrh hodnoticí metodiky pro výběr nástroje**
-
-- Bodový a penalizační systém.
-- Kritéria: funkčnost, soukromí, licencování, rozšiřitelnost.
-
-### **3.2 Přehled analytických nástrojů pro analýzu provozovu web. aplikací**
+### **3.1 Přehled analytických nástrojů pro analýzu provozovu web. aplikací**
 
 - Klíčové funkce, možnosti přizpůsobení, podpora různých analytických paradigmat.
 
+
+### **3.2 Návrh hodnoticí metodiky pro výběr nástroje**
+
+- Bodový a penalizační systém.
+- Kritéria: funkčnost, soukromí, licencování, rozšiřitelnost.
+  
+### **3.3 Návrh hodnoticí metodiky pro výběr nástroje**
+
+- Bodový a penalizační systém.
+- Kritéria: funkčnost, soukromí, licencování, rozšiřitelnost.
 
 ### **3.4 Přehled zkoumaných analytických nástrojů**
 
