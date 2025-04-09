@@ -31,3 +31,19 @@ export interface ProxyInfo {
   upTimeSuccessCount: number;
   upTimeTryCount: number;
 }
+
+
+/**
+ * Interface for collecting metrics from each simulation.
+ */
+export interface SimulationMetrics {
+  userId: number;
+  proxy: string;
+  sitesVisited: number;          // Number of website visits attempted
+  successfulClicks: number;
+  failedClicks: number;
+  visitedSites: { [siteUrl: string]: number };  // Distribution of clicks per site
+  totalDwellTimeMs: number;      // Total dwell time (in ms) for all visited sites in the simulation
+  dwellTimes: number[];          // Array of dwell times (in ms) for each site visited
+  durationMs: number;            // Duration of the entire simulation
+}
