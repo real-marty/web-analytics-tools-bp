@@ -14,17 +14,20 @@ const browserType = process.argv[2] || 'default-browser';
     // Retrieve working proxies.
     const working = await getWorkingProxies('./data/proxies.txt');
     console.log('\n✅ Final working proxies:', working);
+    console.log(`\n🌍 Total working proxies: ${working.length}`);
 
     // Use a selection of working proxies (ensure you have enough proxies in your file).
-    const selectedProxies: string[] = working.slice(0, 3);
+    const selectedProxies: string[] = working.slice(0, 1);
 
     if (browserType !== 'brave' && browserType !== 'chromium') {
         console.log(`Invalid browser type. Please use 'brave' or 'chromium'.`);
         return;
     }
+    console.log(`Total working proxies: ${working.length}`);
+
 
     // Distribute simulations evenly over one hour.
-    const hourMs = 3600000; // One hour in milliseconds.
+    const hourMs = 6000; // One hour in milliseconds.
     simulations = selectedProxies.map((proxyConfig, index) => {
         // Calculate a delay to spread the simulations over the hour.
         const delayMs = Math.floor((hourMs / selectedProxies.length) * index);
