@@ -1,11 +1,11 @@
-
 // types
 import type { SimulationMetrics } from '../types';
 // utils
 import { getWorkingProxies } from "../utils/proxy-tester";
 import { simulateVisit } from "../utils/simulation";
+import { logger } from '../utils/logger';
 
-// args
+
 const browserType = process.argv[2] || 'default-browser';
 
 (async () => {
@@ -14,20 +14,25 @@ const browserType = process.argv[2] || 'default-browser';
     // Retrieve working proxies.
     const working = await getWorkingProxies('./data/proxies.txt');
     console.log('\n✅ Final working proxies:', working);
+    logger.info(`\n✅ Final working proxies: ${JSON.stringify(working)}`);
     console.log(`\n🌍 Total working proxies: ${working.length}`);
+    logger.info(`\n🌍 Total working proxies: ${working.length}`);
 
     // Use a selection of working proxies (ensure you have enough proxies in your file).
-    const selectedProxies: string[] = working.slice(0, 1);
+    // const selectedProxies: string[] = working.slice(0, 1);
+    const selectedProxies: string[] = [...working];
+
 
     if (browserType !== 'brave' && browserType !== 'chromium') {
         console.log(`Invalid browser type. Please use 'brave' or 'chromium'.`);
+        logger.error(`Invalid browser type. Please use 'brave' or 'chromium'.`);
         return;
     }
     console.log(`Total working proxies: ${working.length}`);
-
+    logger.info(`Total working proxies: ${working.length}`);
 
     // Distribute simulations evenly over one hour.
-    const hourMs = 6000; // One hour in milliseconds.
+    const hourMs = 3600000; // One hour in milliseconds.
     simulations = selectedProxies.map((proxyConfig, index) => {
         // Calculate a delay to spread the simulations over the hour.
         const delayMs = Math.floor((hourMs / selectedProxies.length) * index);
@@ -37,6 +42,7 @@ const browserType = process.argv[2] || 'default-browser';
                     .then(resolve)
                     .catch(err => {
                         console.error(`User ${index + 1}: Error during simulation - ${err}`);
+                        logger.error(`User ${index + 1}: Error during simulation - ${err}`);
                         resolve({
                             userId: index + 1,
                             proxy: proxyConfig,
@@ -82,20 +88,35 @@ const browserType = process.argv[2] || 'default-browser';
 
     // Print out aggregated metrics.
     console.log("\n--- Simulation Metrics Summary ---");
+    logger.info("\n--- Simulation Metrics Summary ---");
     console.log(`Good Proxies: ${goodProxies}`);
+    logger.info(`Good Proxies: ${goodProxies}`);
     console.log(`Total Simulations: ${totalSimulations}`);
+    logger.info(`Total Simulations: ${totalSimulations}`);
     console.log(`Successful Simulations: ${successfulSimulations}`);
+    logger.info(`Successful Simulations: ${successfulSimulations}`);
     console.log(`Total Sites Visited (attempted): ${totalSitesVisited}`);
+    logger.info(`Total Sites Visited (attempted): ${totalSitesVisited}`);
     console.log(`Total Successful Clicks: ${totalSuccessfulClicks}`);
+    logger.info(`Total Successful Clicks: ${totalSuccessfulClicks}`);
     console.log(`Total Failed Clicks: ${totalFailedClicks}`);
+    logger.info(`Total Failed Clicks: ${totalFailedClicks}`);
     console.log(`Overall Click Success Rate: ${totalClicks > 0 ? ((totalSuccessfulClicks / totalClicks) * 100).toFixed(2) : 0}%`);
+    logger.info(`Overall Click Success Rate: ${totalClicks > 0 ? ((totalSuccessfulClicks / totalClicks) * 100).toFixed(2) : 0}%`);
     console.log(`Total Dwell Time (all visits): ${totalDwellTime} ms`);
+    logger.info(`Total Dwell Time (all visits): ${totalDwellTime} ms`);
     console.log(`Average Dwell Time per Visit: ${averageDwellTimePerVisit.toFixed(0)} ms`);
+    logger.info(`Average Dwell Time per Visit: ${averageDwellTimePerVisit.toFixed(0)} ms`);
     console.log(`\nBounce Sessions (only one page visited): ${bounceSessions.length}`);
+    logger.info(`\nBounce Sessions (only one page visited): ${bounceSessions.length}`);
     console.log(`Average Bounce Time (single-page dwell time): ${(averageBounceTime / 1000).toFixed(2)} seconds`);
+    logger.info(`Average Bounce Time (single-page dwell time): ${(averageBounceTime / 1000).toFixed(2)} seconds`);
     console.log("\nDistribution of clicks per site:");
+    logger.info("\nDistribution of clicks per site:");
     Object.entries(siteDistribution).forEach(([siteUrl, count]) => {
         console.log(`- ${siteUrl}: ${count} click(s)`);
+        logger.info(`- ${siteUrl}: ${count} click(s)`);
     });
     console.log('-----------------------------------');
+    logger.info('-----------------------------------');
 })();
