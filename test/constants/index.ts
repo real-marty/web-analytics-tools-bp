@@ -1,1 +1,2 @@
 export const BRAVE_EXECUTABLE_PATH: string = 'C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe'; /// Adjust
+export const CHROME_EXECUTABLE_PATH: string = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'; /// Adjust
