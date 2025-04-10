@@ -1,7 +1,7 @@
-import { BRAVE_EXECUTABLE_PATH } from '../constants';
-import { chromium, Browser, BrowserContext, Page } from 'playwright';
+import { BRAVE_EXECUTABLE_PATH, CHROME_EXECUTABLE_PATH } from '../constants';
+import { logger } from './logger';
 
-import { readFileLines } from "./reader";
+import { chromium, Browser } from 'playwright';
 
 import type { SimulationMetrics, Website } from '../types';
 
@@ -49,6 +49,7 @@ export async function simulateVisit(
     } else {
         browser = await chromium.launch({
             headless: false,
+            executablePath: CHROME_EXECUTABLE_PATH,
             proxy: { server: proxyConfig },
         });
     }
@@ -56,7 +57,7 @@ export async function simulateVisit(
     const context = await browser.newContext();
     const page = await context.newPage();
 
-    // // Block images, styles, fonts, and media.
+    //! Block images, styles, fonts, and media.
     // await page.route('**/*', (route) => {
     //     const request = route.request();
     //     const url = request.url().toLowerCase();
@@ -75,6 +76,7 @@ export async function simulateVisit(
 
     // Step 1: Navigate to an IP test page.
     console.log(`User ${userId}: Navigating to the IP test page.`);
+    logger.info(`User ${userId}: Navigating to the IP test page.`);
     await page.goto('https://b8g408o4kgcw48kssw080s4g.kuori.cz/', { waitUntil: 'domcontentloaded' });
     await page.waitForTimeout(3000);
 
@@ -88,6 +90,7 @@ export async function simulateVisit(
     for (const element of shuffledWebsites) {
         const site = element;
         console.log(`User ${userId}: Visiting ${site.url}`);
+        logger.info(`User ${userId}: Visiting ${site.url}`);
         try {
             // Navigate to the website.
             await page.goto(site.url, { waitUntil: 'domcontentloaded' });
@@ -96,6 +99,7 @@ export async function simulateVisit(
             // Random dwell time between 2000 and 10000 milliseconds.
             const dwellTime = Math.floor(Math.random() * 8000) + 2000;
             console.log(`User ${userId}: Staying on ${site.url} for ${dwellTime} ms.`);
+            logger.info(`User ${userId}: Staying on ${site.url} for ${dwellTime} ms.`);
             await page.waitForTimeout(dwellTime);
             simulationMetrics.totalDwellTimeMs += dwellTime;
             simulationMetrics.dwellTimes.push(dwellTime);
@@ -105,9 +109,11 @@ export async function simulateVisit(
             simulationMetrics.successfulClicks++;
             simulationMetrics.visitedSites[site.url] = (simulationMetrics.visitedSites[site.url] || 0) + 1;
             console.log(`User ${userId}: Clicked link with href "${site.href}" on ${site.url}`);
+            logger.info(`User ${userId}: Clicked link with href "${site.href}" on ${site.url}`);
         } catch (e: any) {
             simulationMetrics.failedClicks++;
             console.log(`User ${userId}: Failed clicking link with href "${site.href}" on ${site.url} - ${e.message}`);
+            logger.error(`User ${userId}: Failed clicking link with href "${site.href}" on ${site.url} - ${e.message}`);
         }
     }
 
@@ -115,5 +121,6 @@ export async function simulateVisit(
     const simulationEndTime = Date.now();
     simulationMetrics.durationMs = simulationEndTime - simulationStartTime;
     console.log(`User ${userId}: Simulation complete in ${simulationMetrics.durationMs} ms.`);
+    logger.info(`User ${userId}: Simulation complete in ${simulationMetrics.durationMs} ms.`);
     return simulationMetrics;
 }
