@@ -1,0 +1,1098 @@
+{"level":"info","message":"\n✅ Final working proxies: [\"156.233.90.89:3128\",\"156.228.94.66:3128\",\"156.233.86.192:3128\",\"156.253.173.120:3128\",\"156.242.44.82:3128\",\"156.228.85.177:3128\",\"156.233.86.56:3128\",\"156.249.59.74:3128\",\"156.228.178.105:3128\",\"156.242.38.83:3128\",\"156.228.171.226:3128\",\"154.91.171.51:3128\",\"154.213.164.23:3128\",\"156.242.44.94:3128\",\"154.94.13.94:3128\",\"156.228.112.194:3128\",\"156.228.119.115:3128\",\"156.248.84.116:3128\",\"156.253.177.28:3128\",\"156.242.35.135:3128\",\"156.228.106.178:3128\",\"156.228.113.211:3128\",\"156.228.189.139:3128\",\"156.242.36.51:3128\",\"156.228.105.93:3128\",\"156.233.92.88:3128\",\"156.228.178.195:3128\",\"156.253.164.165:3128\",\"154.214.1.70:3128\",\"154.91.171.87:3128\",\"156.253.172.106:3128\",\"156.242.43.118:3128\",\"154.213.202.32:3128\",\"156.228.79.86:3128\",\"156.249.58.246:3128\",\"156.228.78.70:3128\",\"156.253.166.52:3128\",\"156.233.85.186:3128\",\"45.201.11.245:3128\",\"156.248.85.65:3128\",\"156.253.167.86:3128\",\"156.228.113.162:3128\",\"156.228.105.1:3128\",\"156.248.87.79:3128\",\"154.213.167.176:3128\",\"156.242.40.30:3128\",\"156.249.60.104:3128\",\"45.202.79.181:3128\",\"154.94.15.82:3128\",\"156.253.179.61:3128\",\"156.228.180.155:3128\",\"156.228.99.66:3128\",\"156.242.45.38:3128\",\"156.249.60.136:3128\",\"156.228.85.126:3128\",\"156.253.171.229:3128\",\"156.233.74.242:3128\",\"45.202.77.203:3128\",\"156.249.57.170:3128\",\"156.249.137.27:3128\",\"156.233.87.176:3128\",\"156.248.86.160:3128\",\"154.213.203.100:3128\",\"156.228.82.179:3128\",\"156.248.81.112:3128\",\"154.213.166.162:3128\",\"156.228.113.90:3128\",\"154.213.199.105:3128\",\"156.249.60.125:3128\",\"156.248.81.88:3128\",\"156.240.99.244:3128\",\"156.242.32.228:3128\",\"156.233.84.213:3128\",\"156.228.89.148:3128\",\"154.213.198.96:3128\",\"154.213.165.158:3128\",\"156.228.125.105:3128\",\"156.253.177.2:3128\",\"156.253.179.90:3128\",\"156.253.171.81:3128\",\"156.242.43.116:3128\",\"156.242.43.27:3128\",\"45.202.79.191:3128\",\"154.94.15.180:3128\",\"156.228.88.225:3128\",\"154.94.14.159:3128\",\"156.249.60.92:3128\",\"156.233.73.230:3128\",\"156.228.93.24:3128\",\"156.253.172.145:3128\",\"156.253.173.57:3128\",\"156.249.63.222:3128\",\"156.228.171.116:3128\",\"156.253.164.220:3128\",\"156.228.107.147:3128\",\"156.233.95.208:3128\",\"156.228.116.191:3128\",\"156.228.177.139:3128\",\"156.253.179.102:3128\",\"156.228.117.87:3128\"]","timestamp":"2025-04-11T14:44:26.513Z"}
+{"level":"info","message":"\n🌍 Total working proxies: 100","timestamp":"2025-04-11T14:44:26.515Z"}
+{"level":"info","message":"Total working proxies: 100","timestamp":"2025-04-11T14:44:26.516Z"}
+{"level":"info","message":"User 1: Navigating to the IP test page.","timestamp":"2025-04-11T14:44:26.969Z"}
+{"level":"info","message":"User 1: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:44:31.765Z"}
+{"level":"info","message":"User 1: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 8687 ms.","timestamp":"2025-04-11T14:44:32.227Z"}
+{"level":"info","message":"User 1: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:44:40.982Z"}
+{"level":"info","message":"User 1: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:44:40.983Z"}
+{"level":"info","message":"User 1: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 5784 ms.","timestamp":"2025-04-11T14:44:41.475Z"}
+{"level":"info","message":"User 1: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:44:47.298Z"}
+{"level":"info","message":"User 1: Simulation complete in 20941 ms.","timestamp":"2025-04-11T14:44:47.461Z"}
+{"level":"info","message":"User 2: Navigating to the IP test page.","timestamp":"2025-04-11T14:45:02.983Z"}
+{"level":"info","message":"User 2: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T14:45:07.256Z"}
+{"level":"info","message":"User 2: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 4236 ms.","timestamp":"2025-04-11T14:45:07.835Z"}
+{"level":"info","message":"User 2: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T14:45:12.131Z"}
+{"level":"info","message":"User 2: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:45:12.132Z"}
+{"level":"info","message":"User 2: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 8659 ms.","timestamp":"2025-04-11T14:45:12.504Z"}
+{"level":"info","message":"User 2: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:45:21.208Z"}
+{"level":"info","message":"User 2: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:45:21.209Z"}
+{"level":"info","message":"User 2: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 2194 ms.","timestamp":"2025-04-11T14:45:21.641Z"}
+{"level":"info","message":"User 2: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:45:23.873Z"}
+{"level":"info","message":"User 2: Simulation complete in 21510 ms.","timestamp":"2025-04-11T14:45:24.031Z"}
+{"level":"info","message":"User 3: Navigating to the IP test page.","timestamp":"2025-04-11T14:45:38.895Z"}
+{"level":"info","message":"User 3: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:45:43.315Z"}
+{"level":"info","message":"User 3: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 8591 ms.","timestamp":"2025-04-11T14:45:43.660Z"}
+{"level":"info","message":"User 3: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:45:52.302Z"}
+{"level":"info","message":"User 3: Simulation complete in 13974 ms.","timestamp":"2025-04-11T14:45:52.505Z"}
+{"level":"info","message":"User 4: Navigating to the IP test page.","timestamp":"2025-04-11T14:46:14.899Z"}
+{"level":"info","message":"User 4: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:46:19.155Z"}
+{"level":"info","message":"User 4: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 8920 ms.","timestamp":"2025-04-11T14:46:19.754Z"}
+{"level":"info","message":"User 4: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:46:28.731Z"}
+{"level":"info","message":"User 4: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:46:28.731Z"}
+{"level":"info","message":"User 4: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 6091 ms.","timestamp":"2025-04-11T14:46:29.219Z"}
+{"level":"info","message":"User 4: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:46:35.357Z"}
+{"level":"info","message":"User 4: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T14:46:35.357Z"}
+{"level":"info","message":"User 4: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 4222 ms.","timestamp":"2025-04-11T14:46:35.930Z"}
+{"level":"info","message":"User 4: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T14:46:40.190Z"}
+{"level":"info","message":"User 4: Simulation complete in 25836 ms.","timestamp":"2025-04-11T14:46:40.363Z"}
+{"level":"info","message":"User 5: Navigating to the IP test page.","timestamp":"2025-04-11T14:46:50.920Z"}
+{"level":"info","message":"User 5: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:46:55.279Z"}
+{"level":"info","message":"User 5: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 4791 ms.","timestamp":"2025-04-11T14:46:55.926Z"}
+{"level":"info","message":"User 5: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:47:00.779Z"}
+{"level":"info","message":"User 5: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:47:00.779Z"}
+{"level":"info","message":"User 5: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 2862 ms.","timestamp":"2025-04-11T14:47:01.205Z"}
+{"level":"info","message":"User 5: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:47:04.112Z"}
+{"level":"info","message":"User 5: Simulation complete in 13789 ms.","timestamp":"2025-04-11T14:47:04.316Z"}
+{"level":"info","message":"User 6: Navigating to the IP test page.","timestamp":"2025-04-11T14:47:26.943Z"}
+{"level":"info","message":"User 6: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:47:31.296Z"}
+{"level":"info","message":"User 6: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 6580 ms.","timestamp":"2025-04-11T14:47:31.734Z"}
+{"level":"info","message":"User 6: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:47:38.379Z"}
+{"level":"info","message":"User 6: Simulation complete in 11974 ms.","timestamp":"2025-04-11T14:47:38.497Z"}
+{"level":"info","message":"User 7: Navigating to the IP test page.","timestamp":"2025-04-11T14:48:02.899Z"}
+{"level":"info","message":"User 7: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:48:07.158Z"}
+{"level":"info","message":"User 7: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 8943 ms.","timestamp":"2025-04-11T14:48:07.713Z"}
+{"level":"info","message":"User 7: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:48:16.714Z"}
+{"level":"info","message":"User 7: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:48:16.714Z"}
+{"level":"info","message":"User 7: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 3185 ms.","timestamp":"2025-04-11T14:48:17.136Z"}
+{"level":"info","message":"User 7: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:48:20.366Z"}
+{"level":"info","message":"User 7: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:48:20.367Z"}
+{"level":"info","message":"User 7: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 8616 ms.","timestamp":"2025-04-11T14:48:20.965Z"}
+{"level":"info","message":"User 7: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:48:29.612Z"}
+{"level":"info","message":"User 7: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:48:29.613Z"}
+{"level":"info","message":"User 7: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 7423 ms.","timestamp":"2025-04-11T14:48:29.974Z"}
+{"level":"info","message":"User 7: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:48:37.445Z"}
+{"level":"info","message":"User 7: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T14:48:37.445Z"}
+{"level":"info","message":"User 7: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 8154 ms.","timestamp":"2025-04-11T14:48:37.994Z"}
+{"level":"info","message":"User 8: Navigating to the IP test page.","timestamp":"2025-04-11T14:48:38.918Z"}
+{"level":"info","message":"User 8: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:48:43.289Z"}
+{"level":"info","message":"User 8: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 8396 ms.","timestamp":"2025-04-11T14:48:43.757Z"}
+{"level":"info","message":"User 7: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T14:48:46.190Z"}
+{"level":"info","message":"User 7: Simulation complete in 43836 ms.","timestamp":"2025-04-11T14:48:46.356Z"}
+{"level":"info","message":"User 8: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:48:52.211Z"}
+{"level":"info","message":"User 8: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T14:48:52.212Z"}
+{"level":"info","message":"User 8: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 9408 ms.","timestamp":"2025-04-11T14:48:52.820Z"}
+{"level":"info","message":"User 8: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T14:49:02.275Z"}
+{"level":"info","message":"User 8: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:49:02.275Z"}
+{"level":"info","message":"User 8: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 2124 ms.","timestamp":"2025-04-11T14:49:02.895Z"}
+{"level":"info","message":"User 8: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:49:05.063Z"}
+{"level":"info","message":"User 8: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:49:05.064Z"}
+{"level":"info","message":"User 8: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 9716 ms.","timestamp":"2025-04-11T14:49:05.722Z"}
+{"level":"info","message":"User 9: Navigating to the IP test page.","timestamp":"2025-04-11T14:49:14.943Z"}
+{"level":"info","message":"User 8: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:49:15.483Z"}
+{"level":"info","message":"User 8: Simulation complete in 37136 ms.","timestamp":"2025-04-11T14:49:15.654Z"}
+{"level":"info","message":"User 9: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:49:19.307Z"}
+{"level":"info","message":"User 9: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 2664 ms.","timestamp":"2025-04-11T14:49:19.692Z"}
+{"level":"info","message":"User 9: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:49:22.421Z"}
+{"level":"info","message":"User 9: Simulation complete in 8057 ms.","timestamp":"2025-04-11T14:49:22.586Z"}
+{"level":"info","message":"User 10: Navigating to the IP test page.","timestamp":"2025-04-11T14:49:50.890Z"}
+{"level":"info","message":"User 10: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T14:49:55.043Z"}
+{"level":"info","message":"User 10: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 3000 ms.","timestamp":"2025-04-11T14:49:55.654Z"}
+{"level":"info","message":"User 10: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T14:49:58.713Z"}
+{"level":"info","message":"User 10: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:49:58.714Z"}
+{"level":"info","message":"User 10: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 4710 ms.","timestamp":"2025-04-11T14:49:59.317Z"}
+{"level":"info","message":"User 10: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:50:04.068Z"}
+{"level":"info","message":"User 10: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:50:04.068Z"}
+{"level":"info","message":"User 10: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 7923 ms.","timestamp":"2025-04-11T14:50:04.540Z"}
+{"level":"info","message":"User 10: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:50:12.498Z"}
+{"level":"info","message":"User 10: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:50:12.498Z"}
+{"level":"info","message":"User 10: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 6290 ms.","timestamp":"2025-04-11T14:50:13.162Z"}
+{"level":"info","message":"User 10: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:50:19.488Z"}
+{"level":"info","message":"User 10: Simulation complete in 29147 ms.","timestamp":"2025-04-11T14:50:19.672Z"}
+{"level":"info","message":"User 11: Navigating to the IP test page.","timestamp":"2025-04-11T14:50:26.962Z"}
+{"level":"info","message":"User 11: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T14:50:31.477Z"}
+{"level":"info","message":"User 11: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 8274 ms.","timestamp":"2025-04-11T14:50:32.130Z"}
+{"level":"info","message":"User 11: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T14:50:40.466Z"}
+{"level":"info","message":"User 11: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:50:40.466Z"}
+{"level":"info","message":"User 11: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 6493 ms.","timestamp":"2025-04-11T14:50:41.154Z"}
+{"level":"info","message":"User 11: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:50:47.696Z"}
+{"level":"info","message":"User 11: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:50:47.696Z"}
+{"level":"info","message":"User 11: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 2001 ms.","timestamp":"2025-04-11T14:50:48.097Z"}
+{"level":"info","message":"User 11: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:50:50.129Z"}
+{"level":"info","message":"User 11: Simulation complete in 23748 ms.","timestamp":"2025-04-11T14:50:50.268Z"}
+{"level":"info","message":"User 12: Navigating to the IP test page.","timestamp":"2025-04-11T14:51:02.899Z"}
+{"level":"info","message":"User 12: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T14:51:07.494Z"}
+{"level":"info","message":"User 12: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 5902 ms.","timestamp":"2025-04-11T14:51:09.778Z"}
+{"level":"info","message":"User 12: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T14:51:15.742Z"}
+{"level":"info","message":"User 12: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:51:15.743Z"}
+{"level":"info","message":"User 12: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 5351 ms.","timestamp":"2025-04-11T14:51:16.234Z"}
+{"level":"info","message":"User 12: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:51:21.634Z"}
+{"level":"info","message":"User 12: Simulation complete in 19337 ms.","timestamp":"2025-04-11T14:51:21.868Z"}
+{"level":"info","message":"User 13: Navigating to the IP test page.","timestamp":"2025-04-11T14:51:38.894Z"}
+{"level":"info","message":"User 13: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:51:43.261Z"}
+{"level":"info","message":"User 13: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 7800 ms.","timestamp":"2025-04-11T14:51:44.026Z"}
+{"level":"info","message":"User 13: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:51:51.878Z"}
+{"level":"info","message":"User 13: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T14:51:51.878Z"}
+{"level":"info","message":"User 13: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 6978 ms.","timestamp":"2025-04-11T14:51:52.476Z"}
+{"level":"info","message":"User 13: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T14:51:59.503Z"}
+{"level":"info","message":"User 13: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:51:59.504Z"}
+{"level":"info","message":"User 13: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 9219 ms.","timestamp":"2025-04-11T14:52:00.157Z"}
+{"level":"info","message":"User 13: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:52:09.418Z"}
+{"level":"info","message":"User 13: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:52:09.419Z"}
+{"level":"info","message":"User 13: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 3016 ms.","timestamp":"2025-04-11T14:52:10.031Z"}
+{"level":"info","message":"User 13: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:52:13.101Z"}
+{"level":"info","message":"User 13: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:52:13.102Z"}
+{"level":"info","message":"User 13: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 9743 ms.","timestamp":"2025-04-11T14:52:13.498Z"}
+{"level":"info","message":"User 14: Navigating to the IP test page.","timestamp":"2025-04-11T14:52:14.913Z"}
+{"level":"info","message":"User 14: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:52:19.171Z"}
+{"level":"info","message":"User 14: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 2884 ms.","timestamp":"2025-04-11T14:52:19.536Z"}
+{"level":"info","message":"User 14: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:52:22.483Z"}
+{"level":"info","message":"User 14: Simulation complete in 8108 ms.","timestamp":"2025-04-11T14:52:22.626Z"}
+{"level":"info","message":"User 13: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:52:23.273Z"}
+{"level":"info","message":"User 13: Simulation complete in 44930 ms.","timestamp":"2025-04-11T14:52:23.457Z"}
+{"level":"info","message":"User 15: Navigating to the IP test page.","timestamp":"2025-04-11T14:52:50.904Z"}
+{"level":"info","message":"User 15: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:52:55.215Z"}
+{"level":"info","message":"User 15: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 8920 ms.","timestamp":"2025-04-11T14:52:55.882Z"}
+{"level":"info","message":"User 15: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:53:04.863Z"}
+{"level":"info","message":"User 15: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:53:04.864Z"}
+{"level":"info","message":"User 15: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 5148 ms.","timestamp":"2025-04-11T14:53:05.270Z"}
+{"level":"info","message":"User 15: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:53:10.463Z"}
+{"level":"info","message":"User 15: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:53:10.464Z"}
+{"level":"info","message":"User 15: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 9168 ms.","timestamp":"2025-04-11T14:53:11.007Z"}
+{"level":"info","message":"User 15: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:53:20.217Z"}
+{"level":"info","message":"User 15: Simulation complete in 29887 ms.","timestamp":"2025-04-11T14:53:20.414Z"}
+{"level":"info","message":"User 16: Navigating to the IP test page.","timestamp":"2025-04-11T14:53:26.904Z"}
+{"level":"info","message":"User 16: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:53:31.219Z"}
+{"level":"info","message":"User 16: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 7905 ms.","timestamp":"2025-04-11T14:53:31.582Z"}
+{"level":"info","message":"User 16: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:53:39.543Z"}
+{"level":"info","message":"User 16: Simulation complete in 13202 ms.","timestamp":"2025-04-11T14:53:39.732Z"}
+{"level":"info","message":"User 17: Navigating to the IP test page.","timestamp":"2025-04-11T14:54:02.897Z"}
+{"level":"info","message":"User 17: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:54:08.183Z"}
+{"level":"info","message":"User 17: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 6553 ms.","timestamp":"2025-04-11T14:54:09.131Z"}
+{"level":"info","message":"User 17: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:54:15.747Z"}
+{"level":"info","message":"User 17: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:54:15.747Z"}
+{"level":"info","message":"User 17: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 8730 ms.","timestamp":"2025-04-11T14:54:16.347Z"}
+{"level":"info","message":"User 17: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:54:25.114Z"}
+{"level":"info","message":"User 17: Simulation complete in 22773 ms.","timestamp":"2025-04-11T14:54:25.301Z"}
+{"level":"info","message":"User 18: Navigating to the IP test page.","timestamp":"2025-04-11T14:54:38.888Z"}
+{"level":"info","message":"User 18: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:54:43.335Z"}
+{"level":"info","message":"User 18: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 7443 ms.","timestamp":"2025-04-11T14:54:44.045Z"}
+{"level":"info","message":"User 18: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:54:51.553Z"}
+{"level":"info","message":"User 18: Simulation complete in 13204 ms.","timestamp":"2025-04-11T14:54:51.724Z"}
+{"level":"info","message":"User 19: Navigating to the IP test page.","timestamp":"2025-04-11T14:55:14.903Z"}
+{"level":"info","message":"User 19: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:55:19.310Z"}
+{"level":"info","message":"User 19: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 9658 ms.","timestamp":"2025-04-11T14:55:20.002Z"}
+{"level":"info","message":"User 19: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:55:29.722Z"}
+{"level":"info","message":"User 19: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:55:29.723Z"}
+{"level":"info","message":"User 19: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 4581 ms.","timestamp":"2025-04-11T14:55:30.097Z"}
+{"level":"info","message":"User 19: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:55:34.721Z"}
+{"level":"info","message":"User 19: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:55:34.722Z"}
+{"level":"info","message":"User 19: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 9080 ms.","timestamp":"2025-04-11T14:55:35.317Z"}
+{"level":"info","message":"User 19: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:55:44.453Z"}
+{"level":"info","message":"User 19: Simulation complete in 30135 ms.","timestamp":"2025-04-11T14:55:44.654Z"}
+{"level":"info","message":"User 20: Navigating to the IP test page.","timestamp":"2025-04-11T14:55:50.895Z"}
+{"level":"info","message":"User 20: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:55:55.314Z"}
+{"level":"info","message":"User 20: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 7183 ms.","timestamp":"2025-04-11T14:55:56.015Z"}
+{"level":"info","message":"User 20: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:56:03.256Z"}
+{"level":"info","message":"User 20: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:56:03.256Z"}
+{"level":"info","message":"User 20: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 2900 ms.","timestamp":"2025-04-11T14:56:03.849Z"}
+{"level":"info","message":"User 20: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:56:06.799Z"}
+{"level":"info","message":"User 20: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T14:56:06.800Z"}
+{"level":"info","message":"User 20: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 4555 ms.","timestamp":"2025-04-11T14:56:07.424Z"}
+{"level":"info","message":"User 20: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T14:56:12.022Z"}
+{"level":"info","message":"User 20: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:56:12.022Z"}
+{"level":"info","message":"User 20: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 7485 ms.","timestamp":"2025-04-11T14:56:12.630Z"}
+{"level":"info","message":"User 20: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:56:20.161Z"}
+{"level":"info","message":"User 20: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:56:20.161Z"}
+{"level":"info","message":"User 20: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 8388 ms.","timestamp":"2025-04-11T14:56:20.625Z"}
+{"level":"info","message":"User 21: Navigating to the IP test page.","timestamp":"2025-04-11T14:56:26.886Z"}
+{"level":"info","message":"User 20: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:56:29.049Z"}
+{"level":"info","message":"User 20: Simulation complete in 38687 ms.","timestamp":"2025-04-11T14:56:29.207Z"}
+{"level":"info","message":"User 21: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:56:31.239Z"}
+{"level":"info","message":"User 21: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 8027 ms.","timestamp":"2025-04-11T14:56:31.868Z"}
+{"level":"info","message":"User 21: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:56:39.944Z"}
+{"level":"info","message":"User 21: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:56:39.945Z"}
+{"level":"info","message":"User 21: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 6457 ms.","timestamp":"2025-04-11T14:56:40.338Z"}
+{"level":"info","message":"User 21: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:56:46.829Z"}
+{"level":"info","message":"User 21: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:56:46.830Z"}
+{"level":"info","message":"User 21: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 6894 ms.","timestamp":"2025-04-11T14:56:47.379Z"}
+{"level":"info","message":"User 21: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:56:54.325Z"}
+{"level":"info","message":"User 21: Simulation complete in 27999 ms.","timestamp":"2025-04-11T14:56:54.517Z"}
+{"level":"info","message":"User 22: Navigating to the IP test page.","timestamp":"2025-04-11T14:57:02.894Z"}
+{"level":"info","message":"User 22: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:57:07.211Z"}
+{"level":"info","message":"User 22: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 8288 ms.","timestamp":"2025-04-11T14:57:07.638Z"}
+{"level":"info","message":"User 22: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:57:15.994Z"}
+{"level":"info","message":"User 22: Simulation complete in 13663 ms.","timestamp":"2025-04-11T14:57:16.192Z"}
+{"level":"info","message":"User 23: Navigating to the IP test page.","timestamp":"2025-04-11T14:57:38.888Z"}
+{"level":"info","message":"User 23: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:57:43.277Z"}
+{"level":"info","message":"User 23: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 3143 ms.","timestamp":"2025-04-11T14:57:43.906Z"}
+{"level":"info","message":"User 23: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:57:47.117Z"}
+{"level":"info","message":"User 23: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:57:47.117Z"}
+{"level":"info","message":"User 23: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 5860 ms.","timestamp":"2025-04-11T14:57:47.617Z"}
+{"level":"info","message":"User 23: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:57:53.522Z"}
+{"level":"info","message":"User 23: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:57:53.523Z"}
+{"level":"info","message":"User 23: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 6562 ms.","timestamp":"2025-04-11T14:57:53.905Z"}
+{"level":"info","message":"User 23: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:58:00.516Z"}
+{"level":"info","message":"User 23: Simulation complete in 22185 ms.","timestamp":"2025-04-11T14:58:00.713Z"}
+{"level":"info","message":"User 24: Navigating to the IP test page.","timestamp":"2025-04-11T14:58:14.893Z"}
+{"level":"info","message":"User 24: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:58:19.194Z"}
+{"level":"info","message":"User 24: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 7389 ms.","timestamp":"2025-04-11T14:58:20.155Z"}
+{"level":"info","message":"User 24: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:58:27.596Z"}
+{"level":"info","message":"User 24: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:58:27.597Z"}
+{"level":"info","message":"User 24: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 5649 ms.","timestamp":"2025-04-11T14:58:28.273Z"}
+{"level":"info","message":"User 24: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:58:33.964Z"}
+{"level":"info","message":"User 24: Simulation complete in 19622 ms.","timestamp":"2025-04-11T14:58:34.150Z"}
+{"level":"info","message":"User 25: Navigating to the IP test page.","timestamp":"2025-04-11T14:58:50.892Z"}
+{"level":"info","message":"User 25: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:58:55.325Z"}
+{"level":"info","message":"User 25: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 5778 ms.","timestamp":"2025-04-11T14:58:55.905Z"}
+{"level":"info","message":"User 25: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:59:01.748Z"}
+{"level":"info","message":"User 25: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:59:01.748Z"}
+{"level":"info","message":"User 25: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 4037 ms.","timestamp":"2025-04-11T14:59:02.198Z"}
+{"level":"info","message":"User 25: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:59:06.282Z"}
+{"level":"info","message":"User 25: Simulation complete in 15943 ms.","timestamp":"2025-04-11T14:59:06.474Z"}
+{"level":"info","message":"User 26: Navigating to the IP test page.","timestamp":"2025-04-11T14:59:27.000Z"}
+{"level":"info","message":"User 26: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:59:31.269Z"}
+{"level":"info","message":"User 26: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 7144 ms.","timestamp":"2025-04-11T14:59:31.694Z"}
+{"level":"info","message":"User 26: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T14:59:38.898Z"}
+{"level":"info","message":"User 26: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:59:38.898Z"}
+{"level":"info","message":"User 26: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 9218 ms.","timestamp":"2025-04-11T14:59:39.597Z"}
+{"level":"info","message":"User 26: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T14:59:48.865Z"}
+{"level":"info","message":"User 26: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T14:59:48.866Z"}
+{"level":"info","message":"User 26: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 2032 ms.","timestamp":"2025-04-11T14:59:49.510Z"}
+{"level":"info","message":"User 26: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T14:59:51.583Z"}
+{"level":"info","message":"User 26: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:59:51.583Z"}
+{"level":"info","message":"User 26: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 7579 ms.","timestamp":"2025-04-11T14:59:51.993Z"}
+{"level":"info","message":"User 26: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T14:59:59.625Z"}
+{"level":"info","message":"User 26: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T14:59:59.625Z"}
+{"level":"info","message":"User 26: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 3619 ms.","timestamp":"2025-04-11T15:00:00.266Z"}
+{"level":"info","message":"User 27: Navigating to the IP test page.","timestamp":"2025-04-11T15:00:02.914Z"}
+{"level":"info","message":"User 26: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:00:03.928Z"}
+{"level":"info","message":"User 26: Simulation complete in 37563 ms.","timestamp":"2025-04-11T15:00:04.087Z"}
+{"level":"info","message":"User 27: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:00:07.338Z"}
+{"level":"info","message":"User 27: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 2523 ms.","timestamp":"2025-04-11T15:00:08.038Z"}
+{"level":"info","message":"User 27: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:00:10.629Z"}
+{"level":"info","message":"User 27: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:00:10.630Z"}
+{"level":"info","message":"User 27: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 3130 ms.","timestamp":"2025-04-11T15:00:11.105Z"}
+{"level":"info","message":"User 27: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:00:14.280Z"}
+{"level":"info","message":"User 27: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:00:14.281Z"}
+{"level":"info","message":"User 27: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 6228 ms.","timestamp":"2025-04-11T15:00:14.675Z"}
+{"level":"info","message":"User 27: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:00:20.948Z"}
+{"level":"info","message":"User 27: Simulation complete in 18616 ms.","timestamp":"2025-04-11T15:00:21.143Z"}
+{"level":"info","message":"User 28: Navigating to the IP test page.","timestamp":"2025-04-11T15:00:38.896Z"}
+{"level":"info","message":"User 28: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:00:43.403Z"}
+{"level":"info","message":"User 28: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 3693 ms.","timestamp":"2025-04-11T15:00:43.956Z"}
+{"level":"info","message":"User 28: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:00:47.698Z"}
+{"level":"info","message":"User 28: Simulation complete in 9335 ms.","timestamp":"2025-04-11T15:00:47.862Z"}
+{"level":"info","message":"User 29: Navigating to the IP test page.","timestamp":"2025-04-11T15:01:14.893Z"}
+{"level":"info","message":"User 29: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:01:19.213Z"}
+{"level":"info","message":"User 29: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 8450 ms.","timestamp":"2025-04-11T15:01:19.611Z"}
+{"level":"info","message":"User 29: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:01:28.127Z"}
+{"level":"info","message":"User 29: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:01:28.128Z"}
+{"level":"info","message":"User 29: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 8919 ms.","timestamp":"2025-04-11T15:01:28.665Z"}
+{"level":"info","message":"User 29: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:01:37.634Z"}
+{"level":"info","message":"User 29: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:01:37.635Z"}
+{"level":"info","message":"User 29: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 7431 ms.","timestamp":"2025-04-11T15:01:38.170Z"}
+{"level":"info","message":"User 29: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:01:45.640Z"}
+{"level":"info","message":"User 29: Simulation complete in 31288 ms.","timestamp":"2025-04-11T15:01:45.812Z"}
+{"level":"info","message":"User 30: Navigating to the IP test page.","timestamp":"2025-04-11T15:01:50.911Z"}
+{"level":"info","message":"User 30: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:01:55.237Z"}
+{"level":"info","message":"User 30: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 4342 ms.","timestamp":"2025-04-11T15:01:56.682Z"}
+{"level":"info","message":"User 30: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:02:01.099Z"}
+{"level":"info","message":"User 30: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:02:01.100Z"}
+{"level":"info","message":"User 30: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 4314 ms.","timestamp":"2025-04-11T15:02:01.731Z"}
+{"level":"info","message":"User 30: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:02:06.079Z"}
+{"level":"info","message":"User 30: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:02:06.080Z"}
+{"level":"info","message":"User 30: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 3599 ms.","timestamp":"2025-04-11T15:02:06.645Z"}
+{"level":"info","message":"User 30: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:02:10.283Z"}
+{"level":"info","message":"User 30: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:02:10.283Z"}
+{"level":"info","message":"User 30: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 6418 ms.","timestamp":"2025-04-11T15:02:10.836Z"}
+{"level":"info","message":"User 30: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:02:17.288Z"}
+{"level":"info","message":"User 30: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:02:17.289Z"}
+{"level":"info","message":"User 30: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 2919 ms.","timestamp":"2025-04-11T15:02:17.702Z"}
+{"level":"info","message":"User 30: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:02:20.681Z"}
+{"level":"info","message":"User 30: Simulation complete in 30341 ms.","timestamp":"2025-04-11T15:02:20.871Z"}
+{"level":"info","message":"User 31: Navigating to the IP test page.","timestamp":"2025-04-11T15:02:26.908Z"}
+{"level":"info","message":"User 31: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:02:32.341Z"}
+{"level":"info","message":"User 31: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 5224 ms.","timestamp":"2025-04-11T15:02:32.927Z"}
+{"level":"info","message":"User 31: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:02:38.197Z"}
+{"level":"info","message":"User 31: Simulation complete in 11827 ms.","timestamp":"2025-04-11T15:02:38.357Z"}
+{"level":"info","message":"User 32: Navigating to the IP test page.","timestamp":"2025-04-11T15:03:02.895Z"}
+{"level":"info","message":"User 32: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:03:07.168Z"}
+{"level":"info","message":"User 32: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 9140 ms.","timestamp":"2025-04-11T15:03:07.637Z"}
+{"level":"info","message":"User 32: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:03:16.839Z"}
+{"level":"info","message":"User 32: Simulation complete in 14497 ms.","timestamp":"2025-04-11T15:03:17.021Z"}
+{"level":"info","message":"User 33: Navigating to the IP test page.","timestamp":"2025-04-11T15:03:38.891Z"}
+{"level":"info","message":"User 33: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:03:43.411Z"}
+{"level":"info","message":"User 33: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 4879 ms.","timestamp":"2025-04-11T15:03:44.078Z"}
+{"level":"info","message":"User 33: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:03:49.020Z"}
+{"level":"info","message":"User 33: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:03:49.021Z"}
+{"level":"info","message":"User 33: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 6211 ms.","timestamp":"2025-04-11T15:03:49.653Z"}
+{"level":"info","message":"User 33: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:03:55.911Z"}
+{"level":"info","message":"User 33: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:03:55.912Z"}
+{"level":"info","message":"User 33: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 4828 ms.","timestamp":"2025-04-11T15:03:56.576Z"}
+{"level":"info","message":"User 33: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:04:01.446Z"}
+{"level":"info","message":"User 33: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:04:01.447Z"}
+{"level":"info","message":"User 33: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 7112 ms.","timestamp":"2025-04-11T15:04:01.825Z"}
+{"level":"info","message":"User 33: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:04:08.981Z"}
+{"level":"info","message":"User 33: Simulation complete in 30669 ms.","timestamp":"2025-04-11T15:04:09.191Z"}
+{"level":"info","message":"User 34: Navigating to the IP test page.","timestamp":"2025-04-11T15:04:14.898Z"}
+{"level":"info","message":"User 34: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:04:19.151Z"}
+{"level":"info","message":"User 34: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 7820 ms.","timestamp":"2025-04-11T15:04:19.789Z"}
+{"level":"info","message":"User 34: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:04:27.665Z"}
+{"level":"info","message":"User 34: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:04:27.665Z"}
+{"level":"info","message":"User 34: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 4070 ms.","timestamp":"2025-04-11T15:04:28.033Z"}
+{"level":"info","message":"User 34: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:04:32.146Z"}
+{"level":"info","message":"User 34: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:04:32.146Z"}
+{"level":"info","message":"User 34: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 3062 ms.","timestamp":"2025-04-11T15:04:32.709Z"}
+{"level":"info","message":"User 34: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:04:35.809Z"}
+{"level":"info","message":"User 34: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:04:35.809Z"}
+{"level":"info","message":"User 34: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 6489 ms.","timestamp":"2025-04-11T15:04:36.417Z"}
+{"level":"info","message":"User 34: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:04:42.948Z"}
+{"level":"info","message":"User 34: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:04:42.948Z"}
+{"level":"info","message":"User 34: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 9987 ms.","timestamp":"2025-04-11T15:04:43.399Z"}
+{"level":"info","message":"User 35: Navigating to the IP test page.","timestamp":"2025-04-11T15:04:50.903Z"}
+{"level":"info","message":"User 34: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:04:53.423Z"}
+{"level":"info","message":"User 34: Simulation complete in 39047 ms.","timestamp":"2025-04-11T15:04:53.577Z"}
+{"level":"info","message":"User 35: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:04:55.275Z"}
+{"level":"info","message":"User 35: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 6303 ms.","timestamp":"2025-04-11T15:04:55.656Z"}
+{"level":"info","message":"User 35: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:05:02.028Z"}
+{"level":"info","message":"User 35: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:05:02.029Z"}
+{"level":"info","message":"User 35: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 2971 ms.","timestamp":"2025-04-11T15:05:02.699Z"}
+{"level":"info","message":"User 35: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:05:05.717Z"}
+{"level":"info","message":"User 35: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:05:05.717Z"}
+{"level":"info","message":"User 35: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 7717 ms.","timestamp":"2025-04-11T15:05:06.391Z"}
+{"level":"info","message":"User 35: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:05:14.147Z"}
+{"level":"info","message":"User 35: Simulation complete in 23794 ms.","timestamp":"2025-04-11T15:05:14.327Z"}
+{"level":"info","message":"User 36: Navigating to the IP test page.","timestamp":"2025-04-11T15:05:26.901Z"}
+{"level":"info","message":"User 36: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:05:31.185Z"}
+{"level":"info","message":"User 36: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 8149 ms.","timestamp":"2025-04-11T15:05:31.530Z"}
+{"level":"info","message":"User 36: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:05:39.736Z"}
+{"level":"info","message":"User 36: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:05:39.737Z"}
+{"level":"info","message":"User 36: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 7430 ms.","timestamp":"2025-04-11T15:05:40.294Z"}
+{"level":"info","message":"User 36: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:05:47.767Z"}
+{"level":"info","message":"User 36: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:05:47.768Z"}
+{"level":"info","message":"User 36: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 4871 ms.","timestamp":"2025-04-11T15:05:48.365Z"}
+{"level":"info","message":"User 36: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:05:53.272Z"}
+{"level":"info","message":"User 36: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:05:53.272Z"}
+{"level":"info","message":"User 36: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 4197 ms.","timestamp":"2025-04-11T15:05:53.734Z"}
+{"level":"info","message":"User 36: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:05:57.964Z"}
+{"level":"info","message":"User 36: Simulation complete in 31634 ms.","timestamp":"2025-04-11T15:05:58.161Z"}
+{"level":"info","message":"User 37: Navigating to the IP test page.","timestamp":"2025-04-11T15:06:02.905Z"}
+{"level":"info","message":"User 37: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:06:07.139Z"}
+{"level":"info","message":"User 37: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 4734 ms.","timestamp":"2025-04-11T15:06:07.695Z"}
+{"level":"info","message":"User 37: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:06:12.492Z"}
+{"level":"info","message":"User 37: Simulation complete in 10136 ms.","timestamp":"2025-04-11T15:06:12.656Z"}
+{"level":"info","message":"User 38: Navigating to the IP test page.","timestamp":"2025-04-11T15:06:38.908Z"}
+{"level":"info","message":"User 38: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:06:43.205Z"}
+{"level":"info","message":"User 38: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 8491 ms.","timestamp":"2025-04-11T15:06:43.570Z"}
+{"level":"info","message":"User 38: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:06:52.129Z"}
+{"level":"info","message":"User 38: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:06:52.129Z"}
+{"level":"info","message":"User 38: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 8560 ms.","timestamp":"2025-04-11T15:06:52.695Z"}
+{"level":"info","message":"User 38: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:07:01.290Z"}
+{"level":"info","message":"User 38: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:07:01.291Z"}
+{"level":"info","message":"User 38: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 9663 ms.","timestamp":"2025-04-11T15:07:01.847Z"}
+{"level":"info","message":"User 38: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:07:11.562Z"}
+{"level":"info","message":"User 38: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:07:11.563Z"}
+{"level":"info","message":"User 38: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 9825 ms.","timestamp":"2025-04-11T15:07:12.016Z"}
+{"level":"info","message":"User 39: Navigating to the IP test page.","timestamp":"2025-04-11T15:07:14.910Z"}
+{"level":"info","message":"User 39: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:07:19.122Z"}
+{"level":"info","message":"User 39: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 6388 ms.","timestamp":"2025-04-11T15:07:19.664Z"}
+{"level":"info","message":"User 38: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:07:21.882Z"}
+{"level":"info","message":"User 38: Simulation complete in 43511 ms.","timestamp":"2025-04-11T15:07:22.041Z"}
+{"level":"info","message":"User 39: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:07:26.113Z"}
+{"level":"info","message":"User 39: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:07:26.113Z"}
+{"level":"info","message":"User 39: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 4585 ms.","timestamp":"2025-04-11T15:07:26.538Z"}
+{"level":"info","message":"User 39: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:07:31.173Z"}
+{"level":"info","message":"User 39: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:07:31.173Z"}
+{"level":"info","message":"User 39: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 2796 ms.","timestamp":"2025-04-11T15:07:31.749Z"}
+{"level":"info","message":"User 39: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:07:34.587Z"}
+{"level":"info","message":"User 39: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:07:34.588Z"}
+{"level":"info","message":"User 39: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 9701 ms.","timestamp":"2025-04-11T15:07:35.319Z"}
+{"level":"info","message":"User 39: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:07:45.056Z"}
+{"level":"info","message":"User 39: Simulation complete in 30714 ms.","timestamp":"2025-04-11T15:07:45.246Z"}
+{"level":"info","message":"User 40: Navigating to the IP test page.","timestamp":"2025-04-11T15:07:50.898Z"}
+{"level":"info","message":"User 40: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:07:55.276Z"}
+{"level":"info","message":"User 40: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 8545 ms.","timestamp":"2025-04-11T15:07:55.790Z"}
+{"level":"info","message":"User 40: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:08:04.398Z"}
+{"level":"info","message":"User 40: Simulation complete in 14045 ms.","timestamp":"2025-04-11T15:08:04.575Z"}
+{"level":"info","message":"User 41: Navigating to the IP test page.","timestamp":"2025-04-11T15:08:26.913Z"}
+{"level":"info","message":"User 41: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:08:31.554Z"}
+{"level":"info","message":"User 41: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 7102 ms.","timestamp":"2025-04-11T15:08:32.159Z"}
+{"level":"info","message":"User 41: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:08:39.325Z"}
+{"level":"info","message":"User 41: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:08:39.325Z"}
+{"level":"info","message":"User 41: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 7236 ms.","timestamp":"2025-04-11T15:08:39.759Z"}
+{"level":"info","message":"User 41: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:08:47.040Z"}
+{"level":"info","message":"User 41: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:08:47.040Z"}
+{"level":"info","message":"User 41: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 6565 ms.","timestamp":"2025-04-11T15:08:47.463Z"}
+{"level":"info","message":"User 41: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:08:54.065Z"}
+{"level":"info","message":"User 41: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:08:54.065Z"}
+{"level":"info","message":"User 41: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 5667 ms.","timestamp":"2025-04-11T15:08:54.658Z"}
+{"level":"info","message":"User 41: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:09:00.373Z"}
+{"level":"info","message":"User 41: Simulation complete in 34039 ms.","timestamp":"2025-04-11T15:09:00.566Z"}
+{"level":"info","message":"User 42: Navigating to the IP test page.","timestamp":"2025-04-11T15:09:02.907Z"}
+{"level":"info","message":"User 42: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:09:07.423Z"}
+{"level":"info","message":"User 42: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 5588 ms.","timestamp":"2025-04-11T15:09:08.058Z"}
+{"level":"info","message":"User 42: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:09:13.707Z"}
+{"level":"info","message":"User 42: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:09:13.707Z"}
+{"level":"info","message":"User 42: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 2044 ms.","timestamp":"2025-04-11T15:09:14.116Z"}
+{"level":"info","message":"User 42: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:09:16.199Z"}
+{"level":"info","message":"User 42: Simulation complete in 13846 ms.","timestamp":"2025-04-11T15:09:16.377Z"}
+{"level":"info","message":"User 43: Navigating to the IP test page.","timestamp":"2025-04-11T15:09:38.903Z"}
+{"level":"info","message":"User 43: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:09:43.275Z"}
+{"level":"info","message":"User 43: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 7813 ms.","timestamp":"2025-04-11T15:09:43.746Z"}
+{"level":"info","message":"User 43: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:09:51.619Z"}
+{"level":"info","message":"User 43: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:09:51.619Z"}
+{"level":"info","message":"User 43: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 6252 ms.","timestamp":"2025-04-11T15:09:52.215Z"}
+{"level":"info","message":"User 43: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:09:58.505Z"}
+{"level":"info","message":"User 43: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:09:58.506Z"}
+{"level":"info","message":"User 43: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 9938 ms.","timestamp":"2025-04-11T15:09:58.889Z"}
+{"level":"info","message":"User 43: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:10:08.862Z"}
+{"level":"info","message":"User 43: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:10:08.863Z"}
+{"level":"info","message":"User 43: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 5658 ms.","timestamp":"2025-04-11T15:10:09.413Z"}
+{"level":"info","message":"User 44: Navigating to the IP test page.","timestamp":"2025-04-11T15:10:14.894Z"}
+{"level":"info","message":"User 43: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:10:15.110Z"}
+{"level":"info","message":"User 43: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:10:15.110Z"}
+{"level":"info","message":"User 43: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 2155 ms.","timestamp":"2025-04-11T15:10:15.664Z"}
+{"level":"info","message":"User 43: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:10:17.858Z"}
+{"level":"info","message":"User 43: Simulation complete in 39482 ms.","timestamp":"2025-04-11T15:10:18.012Z"}
+{"level":"info","message":"User 44: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:10:19.082Z"}
+{"level":"info","message":"User 44: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 9105 ms.","timestamp":"2025-04-11T15:10:19.712Z"}
+{"level":"info","message":"User 44: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:10:28.873Z"}
+{"level":"info","message":"User 44: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:10:28.873Z"}
+{"level":"info","message":"User 44: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 6959 ms.","timestamp":"2025-04-11T15:10:29.484Z"}
+{"level":"info","message":"User 44: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:10:36.494Z"}
+{"level":"info","message":"User 44: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:10:36.494Z"}
+{"level":"info","message":"User 44: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 5519 ms.","timestamp":"2025-04-11T15:10:36.877Z"}
+{"level":"info","message":"User 44: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:10:42.432Z"}
+{"level":"info","message":"User 44: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:10:42.432Z"}
+{"level":"info","message":"User 44: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 6005 ms.","timestamp":"2025-04-11T15:10:43.135Z"}
+{"level":"info","message":"User 44: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:10:49.171Z"}
+{"level":"info","message":"User 44: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:10:49.171Z"}
+{"level":"info","message":"User 44: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 2667 ms.","timestamp":"2025-04-11T15:10:49.638Z"}
+{"level":"info","message":"User 45: Navigating to the IP test page.","timestamp":"2025-04-11T15:10:50.900Z"}
+{"level":"info","message":"User 44: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:10:52.348Z"}
+{"level":"info","message":"User 44: Simulation complete in 37975 ms.","timestamp":"2025-04-11T15:10:52.498Z"}
+{"level":"info","message":"User 45: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:10:55.087Z"}
+{"level":"info","message":"User 45: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 6536 ms.","timestamp":"2025-04-11T15:10:55.774Z"}
+{"level":"info","message":"User 45: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:11:02.360Z"}
+{"level":"info","message":"User 45: Simulation complete in 12022 ms.","timestamp":"2025-04-11T15:11:02.541Z"}
+{"level":"info","message":"User 46: Navigating to the IP test page.","timestamp":"2025-04-11T15:11:26.898Z"}
+{"level":"info","message":"User 46: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:11:31.253Z"}
+{"level":"info","message":"User 46: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 2281 ms.","timestamp":"2025-04-11T15:11:31.907Z"}
+{"level":"info","message":"User 46: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:11:34.255Z"}
+{"level":"info","message":"User 46: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:11:34.256Z"}
+{"level":"info","message":"User 46: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 8149 ms.","timestamp":"2025-04-11T15:11:34.691Z"}
+{"level":"info","message":"User 46: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:11:42.882Z"}
+{"level":"info","message":"User 46: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:11:42.883Z"}
+{"level":"info","message":"User 46: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 4992 ms.","timestamp":"2025-04-11T15:11:43.357Z"}
+{"level":"info","message":"User 46: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:11:48.390Z"}
+{"level":"info","message":"User 46: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:11:48.390Z"}
+{"level":"info","message":"User 46: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 8734 ms.","timestamp":"2025-04-11T15:11:49.012Z"}
+{"level":"info","message":"User 46: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:11:57.789Z"}
+{"level":"info","message":"User 46: Simulation complete in 31459 ms.","timestamp":"2025-04-11T15:11:57.985Z"}
+{"level":"info","message":"User 47: Navigating to the IP test page.","timestamp":"2025-04-11T15:12:02.893Z"}
+{"level":"info","message":"User 47: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:12:07.357Z"}
+{"level":"info","message":"User 47: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 7315 ms.","timestamp":"2025-04-11T15:12:07.863Z"}
+{"level":"info","message":"User 47: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:12:15.248Z"}
+{"level":"info","message":"User 47: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:12:15.248Z"}
+{"level":"info","message":"User 47: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 4920 ms.","timestamp":"2025-04-11T15:12:15.883Z"}
+{"level":"info","message":"User 47: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:12:20.847Z"}
+{"level":"info","message":"User 47: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:12:20.848Z"}
+{"level":"info","message":"User 47: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 3277 ms.","timestamp":"2025-04-11T15:12:21.324Z"}
+{"level":"info","message":"User 47: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:12:24.648Z"}
+{"level":"info","message":"User 47: Simulation complete in 22303 ms.","timestamp":"2025-04-11T15:12:24.827Z"}
+{"level":"info","message":"User 48: Navigating to the IP test page.","timestamp":"2025-04-11T15:12:38.896Z"}
+{"level":"info","message":"User 48: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:12:43.363Z"}
+{"level":"info","message":"User 48: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 7159 ms.","timestamp":"2025-04-11T15:12:43.796Z"}
+{"level":"info","message":"User 48: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:12:51.013Z"}
+{"level":"info","message":"User 48: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:12:51.013Z"}
+{"level":"info","message":"User 48: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 3593 ms.","timestamp":"2025-04-11T15:12:51.666Z"}
+{"level":"info","message":"User 48: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:12:55.297Z"}
+{"level":"info","message":"User 48: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:12:55.298Z"}
+{"level":"info","message":"User 48: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 2152 ms.","timestamp":"2025-04-11T15:12:55.653Z"}
+{"level":"info","message":"User 48: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:12:57.847Z"}
+{"level":"info","message":"User 48: Simulation complete in 19511 ms.","timestamp":"2025-04-11T15:12:58.039Z"}
+{"level":"info","message":"User 49: Navigating to the IP test page.","timestamp":"2025-04-11T15:13:14.901Z"}
+{"level":"info","message":"User 49: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:13:19.172Z"}
+{"level":"info","message":"User 49: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 9616 ms.","timestamp":"2025-04-11T15:13:19.610Z"}
+{"level":"info","message":"User 49: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:13:29.286Z"}
+{"level":"info","message":"User 49: Simulation complete in 14935 ms.","timestamp":"2025-04-11T15:13:29.465Z"}
+{"level":"info","message":"User 50: Navigating to the IP test page.","timestamp":"2025-04-11T15:13:50.907Z"}
+{"level":"info","message":"User 50: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:13:55.292Z"}
+{"level":"info","message":"User 50: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 5671 ms.","timestamp":"2025-04-11T15:13:55.663Z"}
+{"level":"info","message":"User 50: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:14:01.396Z"}
+{"level":"info","message":"User 50: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:14:01.396Z"}
+{"level":"info","message":"User 50: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 7280 ms.","timestamp":"2025-04-11T15:14:02.040Z"}
+{"level":"info","message":"User 50: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:14:09.365Z"}
+{"level":"info","message":"User 50: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:14:09.365Z"}
+{"level":"info","message":"User 50: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 2664 ms.","timestamp":"2025-04-11T15:14:09.983Z"}
+{"level":"info","message":"User 50: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:14:12.693Z"}
+{"level":"info","message":"User 50: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:14:12.693Z"}
+{"level":"info","message":"User 50: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 2590 ms.","timestamp":"2025-04-11T15:14:13.413Z"}
+{"level":"info","message":"User 50: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:14:16.039Z"}
+{"level":"info","message":"User 50: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:14:16.039Z"}
+{"level":"info","message":"User 50: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 6338 ms.","timestamp":"2025-04-11T15:14:16.548Z"}
+{"level":"info","message":"User 50: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:14:22.923Z"}
+{"level":"info","message":"User 50: Simulation complete in 32583 ms.","timestamp":"2025-04-11T15:14:23.106Z"}
+{"level":"info","message":"User 51: Navigating to the IP test page.","timestamp":"2025-04-11T15:14:26.895Z"}
+{"level":"info","message":"User 51: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:14:31.256Z"}
+{"level":"info","message":"User 51: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 3710 ms.","timestamp":"2025-04-11T15:14:31.773Z"}
+{"level":"info","message":"User 51: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:14:35.541Z"}
+{"level":"info","message":"User 51: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:14:35.541Z"}
+{"level":"info","message":"User 51: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 7371 ms.","timestamp":"2025-04-11T15:14:36.006Z"}
+{"level":"info","message":"User 51: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:14:43.424Z"}
+{"level":"info","message":"User 51: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:14:43.424Z"}
+{"level":"info","message":"User 51: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 7065 ms.","timestamp":"2025-04-11T15:14:44.074Z"}
+{"level":"info","message":"User 51: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:14:51.173Z"}
+{"level":"info","message":"User 51: Simulation complete in 24838 ms.","timestamp":"2025-04-11T15:14:51.364Z"}
+{"level":"info","message":"User 52: Navigating to the IP test page.","timestamp":"2025-04-11T15:15:02.896Z"}
+{"level":"info","message":"User 52: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:15:08.244Z"}
+{"level":"info","message":"User 52: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 4595 ms.","timestamp":"2025-04-11T15:15:08.809Z"}
+{"level":"info","message":"User 52: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:15:13.457Z"}
+{"level":"info","message":"User 52: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:15:13.457Z"}
+{"level":"info","message":"User 52: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 2537 ms.","timestamp":"2025-04-11T15:15:13.853Z"}
+{"level":"info","message":"User 52: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:15:16.424Z"}
+{"level":"info","message":"User 52: Simulation complete in 14055 ms.","timestamp":"2025-04-11T15:15:16.583Z"}
+{"level":"info","message":"User 53: Navigating to the IP test page.","timestamp":"2025-04-11T15:15:38.898Z"}
+{"level":"info","message":"User 53: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:15:45.115Z"}
+{"level":"info","message":"User 53: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 2220 ms.","timestamp":"2025-04-11T15:15:45.449Z"}
+{"level":"info","message":"User 53: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:15:47.741Z"}
+{"level":"info","message":"User 53: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:15:47.742Z"}
+{"level":"info","message":"User 53: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 5789 ms.","timestamp":"2025-04-11T15:15:48.316Z"}
+{"level":"info","message":"User 53: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:15:54.147Z"}
+{"level":"info","message":"User 53: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:15:54.147Z"}
+{"level":"info","message":"User 53: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 5492 ms.","timestamp":"2025-04-11T15:15:54.881Z"}
+{"level":"info","message":"User 53: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:16:00.414Z"}
+{"level":"info","message":"User 53: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:16:00.415Z"}
+{"level":"info","message":"User 53: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 4879 ms.","timestamp":"2025-04-11T15:16:01.234Z"}
+{"level":"info","message":"User 53: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:16:06.150Z"}
+{"level":"info","message":"User 53: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:16:06.151Z"}
+{"level":"info","message":"User 53: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 7773 ms.","timestamp":"2025-04-11T15:16:06.606Z"}
+{"level":"info","message":"User 53: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:16:14.424Z"}
+{"level":"info","message":"User 53: Simulation complete in 36082 ms.","timestamp":"2025-04-11T15:16:14.607Z"}
+{"level":"info","message":"User 54: Navigating to the IP test page.","timestamp":"2025-04-11T15:16:14.925Z"}
+{"level":"info","message":"User 54: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:16:19.191Z"}
+{"level":"info","message":"User 54: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 8572 ms.","timestamp":"2025-04-11T15:16:19.796Z"}
+{"level":"info","message":"User 54: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:16:28.435Z"}
+{"level":"info","message":"User 54: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:16:28.435Z"}
+{"level":"info","message":"User 54: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 2678 ms.","timestamp":"2025-04-11T15:16:29.036Z"}
+{"level":"info","message":"User 54: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:16:31.758Z"}
+{"level":"info","message":"User 54: Simulation complete in 17388 ms.","timestamp":"2025-04-11T15:16:31.918Z"}
+{"level":"info","message":"User 55: Navigating to the IP test page.","timestamp":"2025-04-11T15:16:50.885Z"}
+{"level":"info","message":"User 55: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:16:55.141Z"}
+{"level":"info","message":"User 55: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 5883 ms.","timestamp":"2025-04-11T15:16:55.787Z"}
+{"level":"info","message":"User 55: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:17:01.715Z"}
+{"level":"info","message":"User 55: Simulation complete in 11374 ms.","timestamp":"2025-04-11T15:17:01.892Z"}
+{"level":"info","message":"User 56: Navigating to the IP test page.","timestamp":"2025-04-11T15:17:26.902Z"}
+{"level":"info","message":"User 56: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:17:32.653Z"}
+{"level":"info","message":"User 56: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 7022 ms.","timestamp":"2025-04-11T15:17:33.200Z"}
+{"level":"info","message":"User 56: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:17:40.282Z"}
+{"level":"info","message":"User 56: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:17:40.282Z"}
+{"level":"info","message":"User 56: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 9634 ms.","timestamp":"2025-04-11T15:17:41.009Z"}
+{"level":"info","message":"User 56: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:17:50.691Z"}
+{"level":"info","message":"User 56: Simulation complete in 24340 ms.","timestamp":"2025-04-11T15:17:50.866Z"}
+{"level":"info","message":"User 57: Navigating to the IP test page.","timestamp":"2025-04-11T15:18:02.901Z"}
+{"level":"info","message":"User 57: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:18:07.496Z"}
+{"level":"info","message":"User 57: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 9715 ms.","timestamp":"2025-04-11T15:18:08.207Z"}
+{"level":"info","message":"User 57: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:18:17.984Z"}
+{"level":"info","message":"User 57: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:18:17.984Z"}
+{"level":"info","message":"User 57: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 4153 ms.","timestamp":"2025-04-11T15:18:19.059Z"}
+{"level":"info","message":"User 57: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:18:25.797Z"}
+{"level":"info","message":"User 57: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:18:25.797Z"}
+{"level":"info","message":"User 57: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 4827 ms.","timestamp":"2025-04-11T15:18:34.067Z"}
+{"level":"info","message":"User 58: Navigating to the IP test page.","timestamp":"2025-04-11T15:18:38.906Z"}
+{"level":"info","message":"User 57: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:18:38.938Z"}
+{"level":"info","message":"User 57: Simulation complete in 36541 ms.","timestamp":"2025-04-11T15:18:39.073Z"}
+{"level":"info","message":"User 58: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:18:43.672Z"}
+{"level":"info","message":"User 58: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 2837 ms.","timestamp":"2025-04-11T15:18:44.429Z"}
+{"level":"info","message":"User 58: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:18:49.154Z"}
+{"level":"info","message":"User 58: Simulation complete in 10791 ms.","timestamp":"2025-04-11T15:18:49.311Z"}
+{"level":"info","message":"User 59: Navigating to the IP test page.","timestamp":"2025-04-11T15:19:14.898Z"}
+{"level":"info","message":"User 59: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:19:19.492Z"}
+{"level":"info","message":"User 59: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 8110 ms.","timestamp":"2025-04-11T15:19:20.115Z"}
+{"level":"error","message":"User 59: Failed clicking link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby - page.click: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('a[href=\"/sluzby\"]')\u001b[22m\n\u001b[2m    - locator resolved to 2 elements. Proceeding with the first one: <a href=\"/sluzby\" class=\"flex items-center text-sm font-medium text-white\">SLUŽBY</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\u001b[2m    - click action done\u001b[22m\n\u001b[2m    - waiting for scheduled navigations to finish\u001b[22m\n","timestamp":"2025-04-11T15:19:31.248Z"}
+{"level":"info","message":"User 59: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:19:31.248Z"}
+{"level":"info","message":"User 59: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 5774 ms.","timestamp":"2025-04-11T15:19:35.272Z"}
+{"level":"info","message":"User 59: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:19:41.095Z"}
+{"level":"info","message":"User 59: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:19:41.095Z"}
+{"level":"info","message":"User 59: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 5765 ms.","timestamp":"2025-04-11T15:19:41.705Z"}
+{"level":"info","message":"User 59: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:19:47.526Z"}
+{"level":"info","message":"User 59: Simulation complete in 33163 ms.","timestamp":"2025-04-11T15:19:47.696Z"}
+{"level":"info","message":"User 60: Navigating to the IP test page.","timestamp":"2025-04-11T15:19:50.895Z"}
+{"level":"info","message":"User 60: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:19:55.227Z"}
+{"level":"info","message":"User 60: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 8028 ms.","timestamp":"2025-04-11T15:19:55.669Z"}
+{"level":"info","message":"User 60: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:20:03.755Z"}
+{"level":"info","message":"User 60: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:20:03.755Z"}
+{"level":"info","message":"User 60: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 2746 ms.","timestamp":"2025-04-11T15:20:04.356Z"}
+{"level":"info","message":"User 60: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:20:07.140Z"}
+{"level":"info","message":"User 60: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:20:07.141Z"}
+{"level":"info","message":"User 60: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 9470 ms.","timestamp":"2025-04-11T15:20:07.696Z"}
+{"level":"info","message":"User 60: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:20:17.217Z"}
+{"level":"info","message":"User 60: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:20:17.218Z"}
+{"level":"info","message":"User 60: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 3392 ms.","timestamp":"2025-04-11T15:20:17.832Z"}
+{"level":"info","message":"User 60: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:20:21.272Z"}
+{"level":"info","message":"User 60: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:20:21.272Z"}
+{"level":"info","message":"User 60: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 7315 ms.","timestamp":"2025-04-11T15:20:21.630Z"}
+{"level":"info","message":"User 61: Navigating to the IP test page.","timestamp":"2025-04-11T15:20:26.893Z"}
+{"level":"info","message":"User 60: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:20:28.979Z"}
+{"level":"info","message":"User 60: Simulation complete in 38619 ms.","timestamp":"2025-04-11T15:20:29.147Z"}
+{"level":"info","message":"User 61: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:20:31.277Z"}
+{"level":"info","message":"User 61: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 9923 ms.","timestamp":"2025-04-11T15:20:31.925Z"}
+{"level":"info","message":"User 61: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:20:41.902Z"}
+{"level":"info","message":"User 61: Simulation complete in 15555 ms.","timestamp":"2025-04-11T15:20:42.081Z"}
+{"level":"info","message":"User 62: Navigating to the IP test page.","timestamp":"2025-04-11T15:21:02.901Z"}
+{"level":"info","message":"User 62: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:21:07.501Z"}
+{"level":"info","message":"User 62: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 4768 ms.","timestamp":"2025-04-11T15:21:07.907Z"}
+{"level":"info","message":"User 62: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:21:12.736Z"}
+{"level":"info","message":"User 62: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:21:12.737Z"}
+{"level":"info","message":"User 62: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 8668 ms.","timestamp":"2025-04-11T15:21:14.024Z"}
+{"level":"info","message":"User 62: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:21:22.739Z"}
+{"level":"info","message":"User 62: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:21:22.739Z"}
+{"level":"info","message":"User 62: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 8302 ms.","timestamp":"2025-04-11T15:21:23.562Z"}
+{"level":"info","message":"User 62: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:21:31.917Z"}
+{"level":"info","message":"User 62: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:21:31.918Z"}
+{"level":"info","message":"User 62: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 7828 ms.","timestamp":"2025-04-11T15:21:33.084Z"}
+{"level":"info","message":"User 63: Navigating to the IP test page.","timestamp":"2025-04-11T15:21:38.893Z"}
+{"level":"info","message":"User 62: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:21:40.956Z"}
+{"level":"info","message":"User 62: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:21:40.956Z"}
+{"level":"info","message":"User 62: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 3234 ms.","timestamp":"2025-04-11T15:21:41.520Z"}
+{"level":"info","message":"User 63: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:21:43.759Z"}
+{"level":"info","message":"User 63: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 7941 ms.","timestamp":"2025-04-11T15:21:44.574Z"}
+{"level":"info","message":"User 62: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:21:44.790Z"}
+{"level":"info","message":"User 62: Simulation complete in 42404 ms.","timestamp":"2025-04-11T15:21:44.936Z"}
+{"level":"info","message":"User 63: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:21:52.582Z"}
+{"level":"info","message":"User 63: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:21:52.583Z"}
+{"level":"info","message":"User 63: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 3557 ms.","timestamp":"2025-04-11T15:21:53.334Z"}
+{"level":"info","message":"User 63: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:21:56.933Z"}
+{"level":"info","message":"User 63: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:21:56.933Z"}
+{"level":"info","message":"User 63: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 7933 ms.","timestamp":"2025-04-11T15:21:57.479Z"}
+{"level":"info","message":"User 63: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:22:05.456Z"}
+{"level":"info","message":"User 63: Simulation complete in 27102 ms.","timestamp":"2025-04-11T15:22:05.625Z"}
+{"level":"info","message":"User 64: Navigating to the IP test page.","timestamp":"2025-04-11T15:22:14.910Z"}
+{"level":"info","message":"User 64: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:22:19.949Z"}
+{"level":"info","message":"User 64: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 9137 ms.","timestamp":"2025-04-11T15:22:20.215Z"}
+{"level":"info","message":"User 64: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:22:29.414Z"}
+{"level":"info","message":"User 64: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:22:29.415Z"}
+{"level":"info","message":"User 64: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 5205 ms.","timestamp":"2025-04-11T15:22:30.007Z"}
+{"level":"info","message":"User 64: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:22:35.260Z"}
+{"level":"info","message":"User 64: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:22:35.260Z"}
+{"level":"info","message":"User 64: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 9487 ms.","timestamp":"2025-04-11T15:22:35.811Z"}
+{"level":"info","message":"User 64: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:22:45.333Z"}
+{"level":"info","message":"User 64: Simulation complete in 30986 ms.","timestamp":"2025-04-11T15:22:45.514Z"}
+{"level":"info","message":"User 65: Navigating to the IP test page.","timestamp":"2025-04-11T15:22:50.917Z"}
+{"level":"info","message":"User 65: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:22:55.288Z"}
+{"level":"info","message":"User 65: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 6548 ms.","timestamp":"2025-04-11T15:22:56.101Z"}
+{"level":"info","message":"User 65: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:23:02.711Z"}
+{"level":"info","message":"User 65: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:23:02.711Z"}
+{"level":"info","message":"User 65: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 8861 ms.","timestamp":"2025-04-11T15:23:03.455Z"}
+{"level":"info","message":"User 65: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:23:12.364Z"}
+{"level":"info","message":"User 65: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:23:12.364Z"}
+{"level":"info","message":"User 65: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 9578 ms.","timestamp":"2025-04-11T15:23:13.098Z"}
+{"level":"info","message":"User 65: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:23:22.718Z"}
+{"level":"info","message":"User 65: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:23:22.719Z"}
+{"level":"info","message":"User 65: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 6702 ms.","timestamp":"2025-04-11T15:23:23.421Z"}
+{"level":"info","message":"User 66: Navigating to the IP test page.","timestamp":"2025-04-11T15:23:26.909Z"}
+{"level":"info","message":"User 65: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:23:30.166Z"}
+{"level":"info","message":"User 65: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:23:30.166Z"}
+{"level":"info","message":"User 65: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 6993 ms.","timestamp":"2025-04-11T15:23:30.650Z"}
+{"level":"info","message":"User 66: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:23:31.804Z"}
+{"level":"info","message":"User 66: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 8011 ms.","timestamp":"2025-04-11T15:23:33.000Z"}
+{"level":"info","message":"User 65: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:23:37.683Z"}
+{"level":"info","message":"User 65: Simulation complete in 47302 ms.","timestamp":"2025-04-11T15:23:37.833Z"}
+{"level":"info","message":"User 66: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:23:41.078Z"}
+{"level":"info","message":"User 66: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:23:41.079Z"}
+{"level":"info","message":"User 66: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 4352 ms.","timestamp":"2025-04-11T15:23:41.818Z"}
+{"level":"info","message":"User 66: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:23:46.217Z"}
+{"level":"info","message":"User 66: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:23:46.217Z"}
+{"level":"info","message":"User 66: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 2245 ms.","timestamp":"2025-04-11T15:23:46.952Z"}
+{"level":"info","message":"User 66: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:23:49.246Z"}
+{"level":"info","message":"User 66: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:23:49.247Z"}
+{"level":"info","message":"User 66: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 9095 ms.","timestamp":"2025-04-11T15:23:50.248Z"}
+{"level":"info","message":"User 66: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:23:59.380Z"}
+{"level":"info","message":"User 66: Simulation complete in 33021 ms.","timestamp":"2025-04-11T15:23:59.550Z"}
+{"level":"info","message":"User 67: Navigating to the IP test page.","timestamp":"2025-04-11T15:24:02.901Z"}
+{"level":"info","message":"User 67: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:24:07.952Z"}
+{"level":"info","message":"User 67: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 4188 ms.","timestamp":"2025-04-11T15:24:08.713Z"}
+{"level":"info","message":"User 67: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:24:12.959Z"}
+{"level":"info","message":"User 67: Simulation complete in 10601 ms.","timestamp":"2025-04-11T15:24:13.131Z"}
+{"level":"info","message":"User 68: Navigating to the IP test page.","timestamp":"2025-04-11T15:24:38.886Z"}
+{"level":"info","message":"User 68: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:24:43.882Z"}
+{"level":"info","message":"User 68: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 2031 ms.","timestamp":"2025-04-11T15:24:46.038Z"}
+{"level":"info","message":"User 68: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:24:48.765Z"}
+{"level":"info","message":"User 68: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:24:48.766Z"}
+{"level":"info","message":"User 68: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 8187 ms.","timestamp":"2025-04-11T15:24:49.657Z"}
+{"level":"info","message":"User 68: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:24:57.892Z"}
+{"level":"info","message":"User 68: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:24:57.893Z"}
+{"level":"info","message":"User 68: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 5474 ms.","timestamp":"2025-04-11T15:24:58.460Z"}
+{"level":"info","message":"User 68: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:25:03.973Z"}
+{"level":"info","message":"User 68: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:25:03.974Z"}
+{"level":"info","message":"User 68: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 8056 ms.","timestamp":"2025-04-11T15:25:04.718Z"}
+{"level":"info","message":"User 68: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:25:12.817Z"}
+{"level":"info","message":"User 68: Simulation complete in 34470 ms.","timestamp":"2025-04-11T15:25:12.988Z"}
+{"level":"info","message":"User 69: Navigating to the IP test page.","timestamp":"2025-04-11T15:25:14.911Z"}
+{"level":"info","message":"User 69: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:25:19.767Z"}
+{"level":"info","message":"User 69: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 4346 ms.","timestamp":"2025-04-11T15:25:20.352Z"}
+{"level":"info","message":"User 69: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:25:24.749Z"}
+{"level":"info","message":"User 69: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:25:24.750Z"}
+{"level":"info","message":"User 69: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 4190 ms.","timestamp":"2025-04-11T15:25:25.761Z"}
+{"level":"info","message":"User 69: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:25:29.993Z"}
+{"level":"info","message":"User 69: Simulation complete in 15635 ms.","timestamp":"2025-04-11T15:25:30.154Z"}
+{"level":"info","message":"User 70: Navigating to the IP test page.","timestamp":"2025-04-11T15:25:50.885Z"}
+{"level":"info","message":"User 70: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:25:55.225Z"}
+{"level":"info","message":"User 70: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 8222 ms.","timestamp":"2025-04-11T15:25:55.794Z"}
+{"level":"info","message":"User 70: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:26:04.075Z"}
+{"level":"info","message":"User 70: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:26:04.076Z"}
+{"level":"info","message":"User 70: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 8903 ms.","timestamp":"2025-04-11T15:26:04.795Z"}
+{"level":"info","message":"User 70: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:26:13.739Z"}
+{"level":"info","message":"User 70: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:26:13.739Z"}
+{"level":"info","message":"User 70: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 4079 ms.","timestamp":"2025-04-11T15:26:14.408Z"}
+{"level":"info","message":"User 70: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:26:18.534Z"}
+{"level":"info","message":"User 70: Simulation complete in 28185 ms.","timestamp":"2025-04-11T15:26:18.705Z"}
+{"level":"info","message":"User 71: Navigating to the IP test page.","timestamp":"2025-04-11T15:26:26.914Z"}
+{"level":"info","message":"User 71: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:26:31.442Z"}
+{"level":"info","message":"User 71: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 6443 ms.","timestamp":"2025-04-11T15:26:32.359Z"}
+{"level":"info","message":"User 71: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:26:38.856Z"}
+{"level":"info","message":"User 71: Simulation complete in 12507 ms.","timestamp":"2025-04-11T15:26:39.027Z"}
+{"level":"info","message":"User 72: Navigating to the IP test page.","timestamp":"2025-04-11T15:27:02.899Z"}
+{"level":"info","message":"User 72: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:27:07.412Z"}
+{"level":"info","message":"User 72: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 2182 ms.","timestamp":"2025-04-11T15:27:07.828Z"}
+{"level":"info","message":"User 72: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:27:10.069Z"}
+{"level":"info","message":"User 72: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:27:10.070Z"}
+{"level":"info","message":"User 72: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 8512 ms.","timestamp":"2025-04-11T15:27:10.766Z"}
+{"level":"info","message":"User 72: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:27:19.323Z"}
+{"level":"info","message":"User 72: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:27:19.323Z"}
+{"level":"info","message":"User 72: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 3934 ms.","timestamp":"2025-04-11T15:27:19.951Z"}
+{"level":"info","message":"User 72: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:27:23.940Z"}
+{"level":"info","message":"User 72: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:27:23.941Z"}
+{"level":"info","message":"User 72: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 9381 ms.","timestamp":"2025-04-11T15:27:24.660Z"}
+{"level":"info","message":"User 72: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:27:34.080Z"}
+{"level":"info","message":"User 72: Simulation complete in 31721 ms.","timestamp":"2025-04-11T15:27:34.250Z"}
+{"level":"info","message":"User 73: Navigating to the IP test page.","timestamp":"2025-04-11T15:27:38.908Z"}
+{"level":"info","message":"User 73: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:27:43.320Z"}
+{"level":"info","message":"User 73: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 5306 ms.","timestamp":"2025-04-11T15:27:43.708Z"}
+{"level":"info","message":"User 73: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:27:49.073Z"}
+{"level":"info","message":"User 73: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:27:49.073Z"}
+{"level":"info","message":"User 73: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 4143 ms.","timestamp":"2025-04-11T15:27:49.796Z"}
+{"level":"info","message":"User 73: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:27:53.971Z"}
+{"level":"info","message":"User 73: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:27:53.972Z"}
+{"level":"info","message":"User 73: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 6440 ms.","timestamp":"2025-04-11T15:27:55.088Z"}
+{"level":"info","message":"User 73: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:28:01.568Z"}
+{"level":"info","message":"User 73: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:28:01.569Z"}
+{"level":"info","message":"User 73: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 2942 ms.","timestamp":"2025-04-11T15:28:02.370Z"}
+{"level":"info","message":"User 73: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:28:05.356Z"}
+{"level":"info","message":"User 73: Simulation complete in 27036 ms.","timestamp":"2025-04-11T15:28:05.562Z"}
+{"level":"info","message":"User 74: Navigating to the IP test page.","timestamp":"2025-04-11T15:28:14.901Z"}
+{"level":"info","message":"User 74: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:28:20.963Z"}
+{"level":"info","message":"User 74: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 2713 ms.","timestamp":"2025-04-11T15:28:21.348Z"}
+{"level":"info","message":"User 74: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:28:24.114Z"}
+{"level":"info","message":"User 74: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:28:24.114Z"}
+{"level":"info","message":"User 74: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 7552 ms.","timestamp":"2025-04-11T15:28:24.792Z"}
+{"level":"info","message":"User 74: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:28:32.390Z"}
+{"level":"info","message":"User 74: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:28:32.390Z"}
+{"level":"info","message":"User 74: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 8234 ms.","timestamp":"2025-04-11T15:28:32.905Z"}
+{"level":"info","message":"User 74: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:28:41.180Z"}
+{"level":"info","message":"User 74: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:28:41.180Z"}
+{"level":"info","message":"User 74: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 9152 ms.","timestamp":"2025-04-11T15:28:41.725Z"}
+{"level":"info","message":"User 75: Navigating to the IP test page.","timestamp":"2025-04-11T15:28:50.908Z"}
+{"level":"info","message":"User 74: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:28:50.925Z"}
+{"level":"info","message":"User 74: Simulation complete in 36572 ms.","timestamp":"2025-04-11T15:28:51.097Z"}
+{"level":"info","message":"User 75: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:28:55.529Z"}
+{"level":"info","message":"User 75: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 3758 ms.","timestamp":"2025-04-11T15:28:55.924Z"}
+{"level":"info","message":"User 75: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:28:59.745Z"}
+{"level":"info","message":"User 75: Simulation complete in 9393 ms.","timestamp":"2025-04-11T15:28:59.921Z"}
+{"level":"info","message":"User 76: Navigating to the IP test page.","timestamp":"2025-04-11T15:29:26.909Z"}
+{"level":"info","message":"User 76: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:29:31.353Z"}
+{"level":"info","message":"User 76: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 7287 ms.","timestamp":"2025-04-11T15:29:31.970Z"}
+{"level":"info","message":"User 76: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:29:39.306Z"}
+{"level":"info","message":"User 76: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:29:39.307Z"}
+{"level":"info","message":"User 76: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 2208 ms.","timestamp":"2025-04-11T15:29:39.699Z"}
+{"level":"info","message":"User 76: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:29:41.950Z"}
+{"level":"info","message":"User 76: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:29:41.950Z"}
+{"level":"info","message":"User 76: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 9410 ms.","timestamp":"2025-04-11T15:29:42.605Z"}
+{"level":"info","message":"User 76: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:29:52.057Z"}
+{"level":"info","message":"User 76: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:29:52.058Z"}
+{"level":"info","message":"User 76: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 9261 ms.","timestamp":"2025-04-11T15:29:52.569Z"}
+{"level":"info","message":"User 76: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:30:01.872Z"}
+{"level":"info","message":"User 76: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:30:01.873Z"}
+{"level":"info","message":"User 76: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 3736 ms.","timestamp":"2025-04-11T15:30:02.524Z"}
+{"level":"info","message":"User 77: Navigating to the IP test page.","timestamp":"2025-04-11T15:30:02.897Z"}
+{"level":"info","message":"User 76: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:30:06.297Z"}
+{"level":"info","message":"User 76: Simulation complete in 39915 ms.","timestamp":"2025-04-11T15:30:06.443Z"}
+{"level":"info","message":"User 77: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:30:07.159Z"}
+{"level":"info","message":"User 77: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 3063 ms.","timestamp":"2025-04-11T15:30:07.679Z"}
+{"level":"info","message":"User 77: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:30:10.804Z"}
+{"level":"info","message":"User 77: Simulation complete in 8455 ms.","timestamp":"2025-04-11T15:30:10.974Z"}
+{"level":"info","message":"User 78: Navigating to the IP test page.","timestamp":"2025-04-11T15:30:38.913Z"}
+{"level":"info","message":"User 78: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:30:43.275Z"}
+{"level":"info","message":"User 78: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 4682 ms.","timestamp":"2025-04-11T15:30:43.941Z"}
+{"level":"info","message":"User 78: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:30:48.683Z"}
+{"level":"info","message":"User 78: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:30:48.683Z"}
+{"level":"info","message":"User 78: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 2243 ms.","timestamp":"2025-04-11T15:30:49.298Z"}
+{"level":"info","message":"User 78: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:30:51.587Z"}
+{"level":"info","message":"User 78: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:30:51.587Z"}
+{"level":"info","message":"User 78: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 5709 ms.","timestamp":"2025-04-11T15:30:52.043Z"}
+{"level":"info","message":"User 78: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:30:57.800Z"}
+{"level":"info","message":"User 78: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:30:57.800Z"}
+{"level":"info","message":"User 78: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 6406 ms.","timestamp":"2025-04-11T15:30:58.463Z"}
+{"level":"info","message":"User 78: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:31:04.906Z"}
+{"level":"info","message":"User 78: Simulation complete in 26568 ms.","timestamp":"2025-04-11T15:31:05.090Z"}
+{"level":"info","message":"User 79: Navigating to the IP test page.","timestamp":"2025-04-11T15:31:14.888Z"}
+{"level":"info","message":"User 79: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:31:19.060Z"}
+{"level":"info","message":"User 79: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 6109 ms.","timestamp":"2025-04-11T15:31:19.743Z"}
+{"level":"info","message":"User 79: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:31:25.904Z"}
+{"level":"info","message":"User 79: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:31:25.904Z"}
+{"level":"info","message":"User 79: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 7729 ms.","timestamp":"2025-04-11T15:31:26.567Z"}
+{"level":"info","message":"User 79: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:31:34.335Z"}
+{"level":"info","message":"User 79: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:31:34.335Z"}
+{"level":"info","message":"User 79: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 4723 ms.","timestamp":"2025-04-11T15:31:34.715Z"}
+{"level":"info","message":"User 79: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:31:39.484Z"}
+{"level":"info","message":"User 79: Simulation complete in 25150 ms.","timestamp":"2025-04-11T15:31:39.668Z"}
+{"level":"info","message":"User 80: Navigating to the IP test page.","timestamp":"2025-04-11T15:31:50.905Z"}
+{"level":"info","message":"User 80: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:31:55.348Z"}
+{"level":"info","message":"User 80: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 6555 ms.","timestamp":"2025-04-11T15:31:56.070Z"}
+{"level":"info","message":"User 80: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:32:02.682Z"}
+{"level":"info","message":"User 80: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:32:02.682Z"}
+{"level":"info","message":"User 80: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 4598 ms.","timestamp":"2025-04-11T15:32:03.029Z"}
+{"level":"info","message":"User 80: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:32:07.665Z"}
+{"level":"info","message":"User 80: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:32:07.665Z"}
+{"level":"info","message":"User 80: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 8539 ms.","timestamp":"2025-04-11T15:32:08.480Z"}
+{"level":"info","message":"User 80: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:32:17.055Z"}
+{"level":"info","message":"User 80: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:32:17.056Z"}
+{"level":"info","message":"User 80: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 8438 ms.","timestamp":"2025-04-11T15:32:17.590Z"}
+{"level":"info","message":"User 80: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:32:26.073Z"}
+{"level":"info","message":"User 80: Simulation complete in 35747 ms.","timestamp":"2025-04-11T15:32:26.264Z"}
+{"level":"info","message":"User 81: Navigating to the IP test page.","timestamp":"2025-04-11T15:32:26.901Z"}
+{"level":"info","message":"User 81: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:32:31.175Z"}
+{"level":"info","message":"User 81: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 5905 ms.","timestamp":"2025-04-11T15:32:32.216Z"}
+{"level":"info","message":"User 81: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:32:38.177Z"}
+{"level":"info","message":"User 81: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:32:38.177Z"}
+{"level":"info","message":"User 81: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 5871 ms.","timestamp":"2025-04-11T15:32:38.727Z"}
+{"level":"info","message":"User 81: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:32:44.648Z"}
+{"level":"info","message":"User 81: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:32:44.649Z"}
+{"level":"info","message":"User 81: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 5087 ms.","timestamp":"2025-04-11T15:32:45.073Z"}
+{"level":"info","message":"User 81: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:32:50.197Z"}
+{"level":"info","message":"User 81: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:32:50.198Z"}
+{"level":"info","message":"User 81: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 7372 ms.","timestamp":"2025-04-11T15:32:50.729Z"}
+{"level":"info","message":"User 81: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:32:58.157Z"}
+{"level":"info","message":"User 81: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:32:58.158Z"}
+{"level":"info","message":"User 81: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 8452 ms.","timestamp":"2025-04-11T15:32:58.592Z"}
+{"level":"info","message":"User 82: Navigating to the IP test page.","timestamp":"2025-04-11T15:33:02.878Z"}
+{"level":"info","message":"User 81: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:33:07.084Z"}
+{"level":"info","message":"User 81: Simulation complete in 40716 ms.","timestamp":"2025-04-11T15:33:07.238Z"}
+{"level":"info","message":"User 82: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:33:14.291Z"}
+{"level":"info","message":"User 82: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 3792 ms.","timestamp":"2025-04-11T15:33:14.914Z"}
+{"level":"info","message":"User 82: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:33:18.758Z"}
+{"level":"info","message":"User 82: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:33:18.758Z"}
+{"level":"info","message":"User 82: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 4260 ms.","timestamp":"2025-04-11T15:33:19.186Z"}
+{"level":"info","message":"User 82: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:33:23.482Z"}
+{"level":"info","message":"User 82: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:33:23.482Z"}
+{"level":"info","message":"User 82: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 4403 ms.","timestamp":"2025-04-11T15:33:23.833Z"}
+{"level":"info","message":"User 82: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:33:28.272Z"}
+{"level":"info","message":"User 82: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:33:28.272Z"}
+{"level":"info","message":"User 82: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 2639 ms.","timestamp":"2025-04-11T15:33:28.823Z"}
+{"level":"info","message":"User 82: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:33:31.505Z"}
+{"level":"info","message":"User 82: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:33:31.505Z"}
+{"level":"info","message":"User 82: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 7130 ms.","timestamp":"2025-04-11T15:33:32.080Z"}
+{"level":"info","message":"User 83: Navigating to the IP test page.","timestamp":"2025-04-11T15:33:38.891Z"}
+{"level":"info","message":"User 82: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:33:39.255Z"}
+{"level":"info","message":"User 82: Simulation complete in 36881 ms.","timestamp":"2025-04-11T15:33:39.413Z"}
+{"level":"info","message":"User 83: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:33:43.132Z"}
+{"level":"info","message":"User 83: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 8395 ms.","timestamp":"2025-04-11T15:33:43.581Z"}
+{"level":"info","message":"User 83: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:33:52.029Z"}
+{"level":"info","message":"User 83: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:33:52.029Z"}
+{"level":"info","message":"User 83: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 8182 ms.","timestamp":"2025-04-11T15:33:52.580Z"}
+{"level":"info","message":"User 83: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:34:00.796Z"}
+{"level":"info","message":"User 83: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:34:00.797Z"}
+{"level":"info","message":"User 83: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 6908 ms.","timestamp":"2025-04-11T15:34:01.339Z"}
+{"level":"info","message":"User 83: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:34:08.300Z"}
+{"level":"info","message":"User 83: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:34:08.300Z"}
+{"level":"info","message":"User 83: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 6237 ms.","timestamp":"2025-04-11T15:34:08.673Z"}
+{"level":"info","message":"User 84: Navigating to the IP test page.","timestamp":"2025-04-11T15:34:14.907Z"}
+{"level":"info","message":"User 83: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:34:14.952Z"}
+{"level":"info","message":"User 83: Simulation complete in 36598 ms.","timestamp":"2025-04-11T15:34:15.119Z"}
+{"level":"info","message":"User 84: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:34:19.392Z"}
+{"level":"info","message":"User 84: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 9794 ms.","timestamp":"2025-04-11T15:34:20.043Z"}
+{"level":"info","message":"User 84: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:34:29.896Z"}
+{"level":"info","message":"User 84: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:34:29.897Z"}
+{"level":"info","message":"User 84: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 8233 ms.","timestamp":"2025-04-11T15:34:30.480Z"}
+{"level":"info","message":"User 84: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:34:38.755Z"}
+{"level":"info","message":"User 84: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:34:38.756Z"}
+{"level":"info","message":"User 84: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 5058 ms.","timestamp":"2025-04-11T15:34:39.304Z"}
+{"level":"info","message":"User 84: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:34:44.398Z"}
+{"level":"info","message":"User 84: Simulation complete in 30048 ms.","timestamp":"2025-04-11T15:34:44.578Z"}
+{"level":"info","message":"User 85: Navigating to the IP test page.","timestamp":"2025-04-11T15:34:50.910Z"}
+{"level":"info","message":"User 85: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:34:55.153Z"}
+{"level":"info","message":"User 85: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 7530 ms.","timestamp":"2025-04-11T15:34:55.526Z"}
+{"level":"info","message":"User 85: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:35:03.119Z"}
+{"level":"info","message":"User 85: Simulation complete in 12773 ms.","timestamp":"2025-04-11T15:35:03.298Z"}
+{"level":"info","message":"User 86: Navigating to the IP test page.","timestamp":"2025-04-11T15:35:26.906Z"}
+{"level":"info","message":"User 86: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:35:31.218Z"}
+{"level":"info","message":"User 86: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 7796 ms.","timestamp":"2025-04-11T15:35:31.571Z"}
+{"level":"info","message":"User 86: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:35:39.427Z"}
+{"level":"info","message":"User 86: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:35:39.428Z"}
+{"level":"info","message":"User 86: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 9437 ms.","timestamp":"2025-04-11T15:35:39.989Z"}
+{"level":"info","message":"User 86: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:35:49.473Z"}
+{"level":"info","message":"User 86: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:35:49.473Z"}
+{"level":"info","message":"User 86: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 4875 ms.","timestamp":"2025-04-11T15:35:49.913Z"}
+{"level":"info","message":"User 86: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:35:54.839Z"}
+{"level":"info","message":"User 86: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:35:54.839Z"}
+{"level":"info","message":"User 86: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 2773 ms.","timestamp":"2025-04-11T15:35:55.444Z"}
+{"level":"info","message":"User 86: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:35:58.262Z"}
+{"level":"info","message":"User 86: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:35:58.262Z"}
+{"level":"info","message":"User 86: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 5758 ms.","timestamp":"2025-04-11T15:35:58.819Z"}
+{"level":"info","message":"User 87: Navigating to the IP test page.","timestamp":"2025-04-11T15:36:02.897Z"}
+{"level":"info","message":"User 86: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:36:04.617Z"}
+{"level":"info","message":"User 86: Simulation complete in 38265 ms.","timestamp":"2025-04-11T15:36:04.798Z"}
+{"level":"info","message":"User 87: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:36:07.352Z"}
+{"level":"info","message":"User 87: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 7455 ms.","timestamp":"2025-04-11T15:36:07.823Z"}
+{"level":"info","message":"User 87: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:36:15.335Z"}
+{"level":"info","message":"User 87: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:36:15.335Z"}
+{"level":"info","message":"User 87: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 3198 ms.","timestamp":"2025-04-11T15:36:15.793Z"}
+{"level":"info","message":"User 87: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:36:19.038Z"}
+{"level":"info","message":"User 87: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:36:19.038Z"}
+{"level":"info","message":"User 87: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 6939 ms.","timestamp":"2025-04-11T15:36:19.688Z"}
+{"level":"info","message":"User 87: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:36:26.671Z"}
+{"level":"info","message":"User 87: Simulation complete in 24321 ms.","timestamp":"2025-04-11T15:36:26.848Z"}
+{"level":"info","message":"User 88: Navigating to the IP test page.","timestamp":"2025-04-11T15:36:38.890Z"}
+{"level":"info","message":"User 88: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:36:43.223Z"}
+{"level":"info","message":"User 88: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 2735 ms.","timestamp":"2025-04-11T15:36:43.561Z"}
+{"level":"info","message":"User 88: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:36:46.381Z"}
+{"level":"info","message":"User 88: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:36:46.382Z"}
+{"level":"info","message":"User 88: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 8573 ms.","timestamp":"2025-04-11T15:36:46.970Z"}
+{"level":"info","message":"User 88: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:36:55.580Z"}
+{"level":"info","message":"User 88: Simulation complete in 17244 ms.","timestamp":"2025-04-11T15:36:55.763Z"}
+{"level":"info","message":"User 89: Navigating to the IP test page.","timestamp":"2025-04-11T15:37:14.907Z"}
+{"level":"info","message":"User 89: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:37:19.217Z"}
+{"level":"info","message":"User 89: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 2683 ms.","timestamp":"2025-04-11T15:37:19.804Z"}
+{"level":"info","message":"User 89: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:37:22.545Z"}
+{"level":"info","message":"User 89: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:37:22.545Z"}
+{"level":"info","message":"User 89: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 9455 ms.","timestamp":"2025-04-11T15:37:23.099Z"}
+{"level":"info","message":"User 89: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:37:32.613Z"}
+{"level":"info","message":"User 89: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:37:32.614Z"}
+{"level":"info","message":"User 89: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 8713 ms.","timestamp":"2025-04-11T15:37:33.048Z"}
+{"level":"info","message":"User 89: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:37:41.807Z"}
+{"level":"info","message":"User 89: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:37:41.807Z"}
+{"level":"info","message":"User 89: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 3963 ms.","timestamp":"2025-04-11T15:37:42.223Z"}
+{"level":"info","message":"User 89: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:37:46.231Z"}
+{"level":"info","message":"User 89: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:37:46.231Z"}
+{"level":"info","message":"User 89: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 4860 ms.","timestamp":"2025-04-11T15:37:46.790Z"}
+{"level":"info","message":"User 90: Navigating to the IP test page.","timestamp":"2025-04-11T15:37:50.900Z"}
+{"level":"info","message":"User 89: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:37:51.688Z"}
+{"level":"info","message":"User 89: Simulation complete in 37282 ms.","timestamp":"2025-04-11T15:37:51.814Z"}
+{"level":"info","message":"User 90: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:37:55.725Z"}
+{"level":"info","message":"User 90: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 2376 ms.","timestamp":"2025-04-11T15:37:56.512Z"}
+{"level":"info","message":"User 90: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:37:58.953Z"}
+{"level":"info","message":"User 90: Simulation complete in 8594 ms.","timestamp":"2025-04-11T15:37:59.116Z"}
+{"level":"info","message":"User 91: Navigating to the IP test page.","timestamp":"2025-04-11T15:38:26.906Z"}
+{"level":"info","message":"User 91: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:38:31.136Z"}
+{"level":"info","message":"User 91: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 6193 ms.","timestamp":"2025-04-11T15:38:31.795Z"}
+{"level":"info","message":"User 91: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:38:38.050Z"}
+{"level":"info","message":"User 91: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:38:38.051Z"}
+{"level":"info","message":"User 91: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 2451 ms.","timestamp":"2025-04-11T15:38:38.591Z"}
+{"level":"info","message":"User 91: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:38:41.093Z"}
+{"level":"info","message":"User 91: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:38:41.093Z"}
+{"level":"info","message":"User 91: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 7739 ms.","timestamp":"2025-04-11T15:38:41.517Z"}
+{"level":"info","message":"User 91: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:38:49.307Z"}
+{"level":"info","message":"User 91: Simulation complete in 22965 ms.","timestamp":"2025-04-11T15:38:49.486Z"}
+{"level":"info","message":"User 92: Navigating to the IP test page.","timestamp":"2025-04-11T15:39:02.901Z"}
+{"level":"info","message":"User 92: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:39:07.268Z"}
+{"level":"info","message":"User 92: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 5365 ms.","timestamp":"2025-04-11T15:39:07.730Z"}
+{"level":"info","message":"User 92: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:39:13.153Z"}
+{"level":"info","message":"User 92: Simulation complete in 10795 ms.","timestamp":"2025-04-11T15:39:13.317Z"}
+{"level":"info","message":"User 93: Navigating to the IP test page.","timestamp":"2025-04-11T15:39:38.904Z"}
+{"level":"info","message":"User 93: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:39:43.350Z"}
+{"level":"info","message":"User 93: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 6062 ms.","timestamp":"2025-04-11T15:39:44.090Z"}
+{"level":"info","message":"User 93: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:39:50.210Z"}
+{"level":"info","message":"User 93: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:39:50.211Z"}
+{"level":"info","message":"User 93: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 4587 ms.","timestamp":"2025-04-11T15:39:50.847Z"}
+{"level":"info","message":"User 93: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:39:55.474Z"}
+{"level":"info","message":"User 93: Simulation complete in 17134 ms.","timestamp":"2025-04-11T15:39:55.659Z"}
+{"level":"info","message":"User 94: Navigating to the IP test page.","timestamp":"2025-04-11T15:40:14.895Z"}
+{"level":"info","message":"User 94: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:40:19.168Z"}
+{"level":"info","message":"User 94: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 2454 ms.","timestamp":"2025-04-11T15:40:19.536Z"}
+{"level":"info","message":"User 94: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:40:22.045Z"}
+{"level":"info","message":"User 94: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:40:22.046Z"}
+{"level":"info","message":"User 94: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 5386 ms.","timestamp":"2025-04-11T15:40:22.624Z"}
+{"level":"info","message":"User 94: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:40:28.056Z"}
+{"level":"info","message":"User 94: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:40:28.057Z"}
+{"level":"info","message":"User 94: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 8666 ms.","timestamp":"2025-04-11T15:40:28.721Z"}
+{"level":"info","message":"User 94: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:40:37.429Z"}
+{"level":"info","message":"User 94: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:40:37.430Z"}
+{"level":"info","message":"User 94: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 7442 ms.","timestamp":"2025-04-11T15:40:37.863Z"}
+{"level":"info","message":"User 94: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:40:45.348Z"}
+{"level":"info","message":"User 94: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:40:45.348Z"}
+{"level":"info","message":"User 94: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 4248 ms.","timestamp":"2025-04-11T15:40:45.899Z"}
+{"level":"info","message":"User 94: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:40:50.183Z"}
+{"level":"info","message":"User 94: Simulation complete in 35837 ms.","timestamp":"2025-04-11T15:40:50.360Z"}
+{"level":"info","message":"User 95: Navigating to the IP test page.","timestamp":"2025-04-11T15:40:50.914Z"}
+{"level":"info","message":"User 95: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:40:55.539Z"}
+{"level":"info","message":"User 95: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 7116 ms.","timestamp":"2025-04-11T15:40:56.164Z"}
+{"level":"info","message":"User 95: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:41:03.349Z"}
+{"level":"info","message":"User 95: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:41:03.349Z"}
+{"level":"info","message":"User 95: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 4362 ms.","timestamp":"2025-04-11T15:41:03.781Z"}
+{"level":"info","message":"User 95: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:41:08.194Z"}
+{"level":"info","message":"User 95: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:41:08.194Z"}
+{"level":"info","message":"User 95: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 5233 ms.","timestamp":"2025-04-11T15:41:08.593Z"}
+{"level":"info","message":"User 95: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:41:13.865Z"}
+{"level":"info","message":"User 95: Simulation complete in 23527 ms.","timestamp":"2025-04-11T15:41:14.049Z"}
+{"level":"info","message":"User 96: Navigating to the IP test page.","timestamp":"2025-04-11T15:41:26.913Z"}
+{"level":"info","message":"User 96: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:41:31.275Z"}
+{"level":"info","message":"User 96: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 4437 ms.","timestamp":"2025-04-11T15:41:31.663Z"}
+{"level":"info","message":"User 96: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:41:36.160Z"}
+{"level":"info","message":"User 96: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:41:36.160Z"}
+{"level":"info","message":"User 96: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 4032 ms.","timestamp":"2025-04-11T15:41:36.771Z"}
+{"level":"info","message":"User 96: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:41:40.853Z"}
+{"level":"info","message":"User 96: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:41:40.853Z"}
+{"level":"info","message":"User 96: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 8339 ms.","timestamp":"2025-04-11T15:41:41.476Z"}
+{"level":"info","message":"User 96: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:41:49.856Z"}
+{"level":"info","message":"User 96: Simulation complete in 23509 ms.","timestamp":"2025-04-11T15:41:50.038Z"}
+{"level":"info","message":"User 97: Navigating to the IP test page.","timestamp":"2025-04-11T15:42:02.905Z"}
+{"level":"info","message":"User 97: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:42:07.140Z"}
+{"level":"info","message":"User 97: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 5720 ms.","timestamp":"2025-04-11T15:42:07.567Z"}
+{"level":"info","message":"User 97: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:42:13.337Z"}
+{"level":"info","message":"User 97: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:42:13.338Z"}
+{"level":"info","message":"User 97: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 2928 ms.","timestamp":"2025-04-11T15:42:13.905Z"}
+{"level":"info","message":"User 97: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:42:16.875Z"}
+{"level":"info","message":"User 97: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:42:16.876Z"}
+{"level":"info","message":"User 97: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 2287 ms.","timestamp":"2025-04-11T15:42:17.451Z"}
+{"level":"info","message":"User 97: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:42:19.783Z"}
+{"level":"info","message":"User 97: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:42:19.783Z"}
+{"level":"info","message":"User 97: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 8624 ms.","timestamp":"2025-04-11T15:42:20.337Z"}
+{"level":"info","message":"User 97: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:42:28.992Z"}
+{"level":"info","message":"User 97: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:42:28.993Z"}
+{"level":"info","message":"User 97: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 4432 ms.","timestamp":"2025-04-11T15:42:29.434Z"}
+{"level":"info","message":"User 97: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:42:33.906Z"}
+{"level":"info","message":"User 97: Simulation complete in 31555 ms.","timestamp":"2025-04-11T15:42:34.086Z"}
+{"level":"info","message":"User 98: Navigating to the IP test page.","timestamp":"2025-04-11T15:42:38.904Z"}
+{"level":"info","message":"User 98: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:42:43.229Z"}
+{"level":"info","message":"User 98: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 4710 ms.","timestamp":"2025-04-11T15:42:44.070Z"}
+{"level":"info","message":"User 98: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:42:48.836Z"}
+{"level":"info","message":"User 98: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:42:48.836Z"}
+{"level":"info","message":"User 98: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty for 5405 ms.","timestamp":"2025-04-11T15:42:49.459Z"}
+{"level":"info","message":"User 98: Clicked link with href \"/kontakty\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty","timestamp":"2025-04-11T15:42:54.905Z"}
+{"level":"info","message":"User 98: Simulation complete in 16540 ms.","timestamp":"2025-04-11T15:42:55.073Z"}
+{"level":"info","message":"User 99: Navigating to the IP test page.","timestamp":"2025-04-11T15:43:14.906Z"}
+{"level":"info","message":"User 99: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:43:19.285Z"}
+{"level":"info","message":"User 99: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy for 7526 ms.","timestamp":"2025-04-11T15:43:19.918Z"}
+{"level":"info","message":"User 99: Clicked link with href \"/dotazy\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy","timestamp":"2025-04-11T15:43:27.501Z"}
+{"level":"info","message":"User 99: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:43:27.501Z"}
+{"level":"info","message":"User 99: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/ for 7801 ms.","timestamp":"2025-04-11T15:43:28.196Z"}
+{"level":"info","message":"User 99: Clicked link with href \"/\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/","timestamp":"2025-04-11T15:43:36.039Z"}
+{"level":"info","message":"User 99: Simulation complete in 21685 ms.","timestamp":"2025-04-11T15:43:36.218Z"}
+{"level":"info","message":"User 100: Navigating to the IP test page.","timestamp":"2025-04-11T15:43:50.894Z"}
+{"level":"info","message":"User 100: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:43:55.190Z"}
+{"level":"info","message":"User 100: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference for 7754 ms.","timestamp":"2025-04-11T15:43:55.541Z"}
+{"level":"info","message":"User 100: Clicked link with href \"/reference\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference","timestamp":"2025-04-11T15:44:03.354Z"}
+{"level":"info","message":"User 100: Visiting https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:44:03.354Z"}
+{"level":"info","message":"User 100: Staying on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby for 4515 ms.","timestamp":"2025-04-11T15:44:03.786Z"}
+{"level":"info","message":"User 100: Clicked link with href \"/sluzby\" on https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby","timestamp":"2025-04-11T15:44:08.339Z"}
+{"level":"info","message":"User 100: Simulation complete in 17975 ms.","timestamp":"2025-04-11T15:44:08.500Z"}
+{"level":"info","message":"\n--- Simulation Metrics Summary ---","timestamp":"2025-04-11T15:44:08.501Z"}
+{"level":"info","message":"Good Proxies: 100","timestamp":"2025-04-11T15:44:08.501Z"}
+{"level":"info","message":"Total Simulations: 100","timestamp":"2025-04-11T15:44:08.501Z"}
+{"level":"info","message":"Successful Simulations: 100","timestamp":"2025-04-11T15:44:08.501Z"}
+{"level":"info","message":"Total Sites Visited (attempted): 292","timestamp":"2025-04-11T15:44:08.501Z"}
+{"level":"info","message":"Total Successful Clicks: 291","timestamp":"2025-04-11T15:44:08.502Z"}
+{"level":"info","message":"Total Failed Clicks: 1","timestamp":"2025-04-11T15:44:08.502Z"}
+{"level":"info","message":"Overall Click Success Rate: 99.66%","timestamp":"2025-04-11T15:44:08.502Z"}
+{"level":"info","message":"Total Dwell Time (all visits): 1777892 ms","timestamp":"2025-04-11T15:44:08.502Z"}
+{"level":"info","message":"Average Dwell Time per Visit: 6089 ms","timestamp":"2025-04-11T15:44:08.502Z"}
+{"level":"info","message":"\nBounce Sessions (only one page visited): 24","timestamp":"2025-04-11T15:44:08.503Z"}
+{"level":"info","message":"Average Bounce Time (single-page dwell time): 5.97 seconds","timestamp":"2025-04-11T15:44:08.503Z"}
+{"level":"info","message":"\nDistribution of clicks per site:","timestamp":"2025-04-11T15:44:08.503Z"}
+{"level":"info","message":"- https://b8g408o4kgcw48kssw080s4g.kuori.cz/reference: 61 click(s)","timestamp":"2025-04-11T15:44:08.503Z"}
+{"level":"info","message":"- https://b8g408o4kgcw48kssw080s4g.kuori.cz/sluzby: 55 click(s)","timestamp":"2025-04-11T15:44:08.504Z"}
+{"level":"info","message":"- https://b8g408o4kgcw48kssw080s4g.kuori.cz/kontakty: 58 click(s)","timestamp":"2025-04-11T15:44:08.504Z"}
+{"level":"info","message":"- https://b8g408o4kgcw48kssw080s4g.kuori.cz/: 62 click(s)","timestamp":"2025-04-11T15:44:08.504Z"}
+{"level":"info","message":"- https://b8g408o4kgcw48kssw080s4g.kuori.cz/dotazy: 55 click(s)","timestamp":"2025-04-11T15:44:08.504Z"}
+{"level":"info","message":"-----------------------------------","timestamp":"2025-04-11T15:44:08.504Z"}
