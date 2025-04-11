@@ -58,21 +58,21 @@ export async function simulateVisit(
     const page = await context.newPage();
 
     //! Block images, styles, fonts, and media.
-    // await page.route('**/*', (route) => {
-    //     const request = route.request();
-    //     const url = request.url().toLowerCase();
-    //     const resourceType = request.resourceType();
-    //     const blockedTypes = ['image', 'stylesheet', 'font', 'media'];
-    //     const blockedExtensions = ['.webp', '.woff', '.woff2', '.ttf', '.otf', '.eot', '.svg', '.ico', '.x-icon'];
-    //     if (
-    //         blockedTypes.includes(resourceType) ||
-    //         blockedExtensions.some(ext => url.endsWith(ext))
-    //     ) {
-    //         route.abort();
-    //     } else {
-    //         route.continue();
-    //     }
-    // });
+    await page.route('**/*', (route) => {
+        const request = route.request();
+        const url = request.url().toLowerCase();
+        const resourceType = request.resourceType();
+        const blockedTypes = ['image', 'stylesheet', 'font', 'media'];
+        const blockedExtensions = ['.webp', '.woff', '.woff2', '.ttf', '.otf', '.eot', '.svg', '.ico', '.x-icon'];
+        if (
+            blockedTypes.includes(resourceType) ||
+            blockedExtensions.some(ext => url.endsWith(ext))
+        ) {
+            route.abort();
+        } else {
+            route.continue();
+        }
+    });
 
     // Step 1: Navigate to an IP test page.
     console.log(`User ${userId}: Navigating to the IP test page.`);

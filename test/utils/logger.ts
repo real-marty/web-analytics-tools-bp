@@ -8,6 +8,6 @@ export const logger = createLogger({
     ),
     transports: [
         new transports.Console(),
-        new transports.File({ filename: 'analytics_chrome.log' })
+        new transports.File({ filename: 'analytics_brave.log' })
     ]
 });
