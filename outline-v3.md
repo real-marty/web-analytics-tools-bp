@@ -29,12 +29,13 @@
 → Odůvodnění použití i neakademických zdrojů (např. nové nástroje jako PostHog, absence aktuálních informací v klasické literatuře).
 
 ### **2.2  Přehled analytických přístupů**
+
 - analytika - je velice siroky pojem
 - Různorodost typů analýz umožněných vybranými nástroji.
 - Zkoumané nástroje obvykle podporují více typů analýz (produktová analytika, behaviorální analýza apod.).
 - Hlavní druhy analytiky
-- Souvislost mezi jednotlivými typy analytiky 
-  - Ačkoli jsou jednotlivé typy analytiky zpravidla vymezeny jako samostatné disciplíny, v praktickém uplatnění mezi nimi často dochází k tematickému překryvu.
+- Souvislost mezi jednotlivými typy analytiky
+ - Ačkoli jsou jednotlivé typy analytiky zpravidla vymezeny jako samostatné disciplíny, v praktickém uplatnění mezi nimi často dochází k tematickému překryvu.
 - Infrastrukturní prvky potřebné pro analytiku
 - Oblasti úzce související s analytikou
 - Není zaměřeno výhradně na jediný analytický přístup.
@@ -59,25 +60,14 @@
 
 ## **3. Přehled nástrojů a technologií**
 
-### **3.1 Přehled analytických nástrojů pro analýzu provozovu web. aplikací**
+### **3.1 Přehled analytických nástrojů pro analýzu provozovu webových aplikací**
 
 - Klíčové funkce, možnosti přizpůsobení, podpora různých analytických paradigmat.
+- možnosti analytiky, ceny, způsob práce a míry sběru a ukládání informací.
 
+### **3.2 Technologie pro provoz infrastruktury a testování**
 
-### **3.2 Návrh hodnoticí metodiky pro výběr nástroje**
-
-- Bodový a penalizační systém.
-- Kritéria: funkčnost, soukromí, licencování, rozšiřitelnost.
-  
-### **3.3 Návrh hodnoticí metodiky pro výběr nástroje**
-
-- Bodový a penalizační systém.
-- Kritéria: funkčnost, soukromí, licencování, rozšiřitelnost.
-
-### **3.4 Přehled zkoumaných analytických nástrojů**
-
-- Krátká charakteristika nástrojů: **Matomo**, **PostHog**, **Umami**.
-- Licenční modely, open-source povaha, rozšiřitelnost, komunita.
+- docker, docker-compose, Playwright, Node.js, traefik
 
 ---
 
@@ -102,9 +92,20 @@
 - Bezpečnost a anonymita (bez cookies).
 - Přesnost měření i při blokování obsahu.
 
+### **4.2 Návrh hodnoticí metodiky pro výběr nástroje**
+
+- Bodový a penalizační systém.
+- Kritéria: funkčnost, soukromí, licencování, rozšiřitelnost.
+  
+### **4.3 Výběr vhodných řešení**
+
+- Výběr nástrojů pro další analýzu a nasazení.
+- Krátká charakteristika nástrojů: **Matomo**, **PostHog**, **Umami**.
+- Licenční modely, open-source povaha, rozšiřitelnost, komunita.
+
 ---
 
-## **5. Návrh řešení**
+## **5.Návrh nasazení konkrétních řešení**
 
 ### **5.1 Návrh vhodného řešení pro společnost CCA**
 
