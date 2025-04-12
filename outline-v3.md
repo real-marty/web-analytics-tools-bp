@@ -105,7 +105,7 @@
 
 ---
 
-## **5.Návrh nasazení konkrétních řešení**
+## **5. Návrh pro konkrétní řešení**
 
 ### **5.1 Návrh vhodného řešení pro společnost CCA**
 
